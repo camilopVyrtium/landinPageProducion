@@ -1,6 +1,6 @@
 
 import { IATop } from "./IATop";
-import { IAAnimation } from "./IAAnimation";
+// import { IAAnimation } from "./IAAnimation";
 import { IABottom } from "./IABottom";
 import { IaCarousel } from "@/components/common/MobileCarousel";
 
