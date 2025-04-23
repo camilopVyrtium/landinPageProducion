@@ -7,7 +7,7 @@ import { ErrorBoundary } from "react-error-boundary";
 // Carga diferida del componente Spline
 const Spline = React.lazy(() => import("@splinetool/react-spline"));
 
-function ErrorFallback({ error, resetErrorBoundary }: { error: Error; resetErrorBoundary: () => void }) {
+function ErrorFallback({ resetErrorBoundary }: { error: Error; resetErrorBoundary: () => void }) {
   const isMac = /Macintosh|MacIntel|MacPPC|Mac68K/.test(navigator.userAgent);
 
   return (
@@ -36,7 +36,7 @@ const checkWebGLSupport = () => {
       window.WebGLRenderingContext &&
       (canvas.getContext("webgl") || canvas.getContext("experimental-webgl"))
     );
-  } catch (e) {
+  } catch {
     return false;
   }
 };
@@ -70,7 +70,7 @@ function Animation({ scene, height }: { scene: string; height: string }) {
 
     setWebGLSupported(checkWebGLSupport());
     verifyScene();
-  }, []);
+  }, [scene]);
 
   if (!webGLSupported) {
     return (
