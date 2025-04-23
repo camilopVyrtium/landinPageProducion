@@ -1,0 +1,149 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  max-width: 1920px;
+}
+
+:root {
+  --background: #fff;
+  --red1: #FF5143;
+  --red2: #FF675F;
+  --red3: #FF7E7B;
+  --blue1: #64D2D9;
+  --blue2: #90D6D6;
+  --blue3: #BAD3D2;
+  --blue4: #D7E2E1;
+  --gray1: #2F383F;
+  --gray2: #434F5B;
+  --gray3: #545F68;
+  --gray4: #72777A;
+  --yellow1: #FFFECE;
+  --yellow4: #FFFFF8;
+  --foreground: var(--gray1);
+  max-width: 1920px;
+}
+
+* {
+  line-height: normal !important;
+}
+
+body {
+  color: var(--foreground);
+  line-height: normal;
+  opacity: var(--breakpoint, 1);
+  background: linear-gradient(180deg,
+      rgb(255 81 67 / 5%) 0%,
+      rgb(255 255 248 / 20%) 46.5%,
+      rgb(100 210 217 / 5%) 100%),
+    #FFFFF8;
+}
+
+@layer components {
+  .section-new-lg {
+    background-image: url('/images/common/new-section-lg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .section-new-sm {
+    background-image: url('/images/common/new-section-sm.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .section-new-lg p,
+  .section-new-sm p {
+    scrollbar-width: none;
+    overflow-x: hidden;
+  }
+
+  .section-new {
+    width: 100%;
+    height: 20rem;
+  }
+
+  .section-new div {
+    background-color: var(--blue1);
+  }
+
+  .section-new-l {
+    width: 70%;
+    margin: 0;
+    outline: 0;
+    border-radius: 8px;
+    bottom: 0;
+    position: absolute;
+    min-height: 55%;
+    clip-path: polygon(0 0, 52% 0, 100% 100%, 68% 100%, 32% 100%, 0 100%, 0 0);
+  }
+
+  .section-new-r {
+    width: 40%;
+    height: 15%;
+    margin: 0;
+    outline: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 8px;
+  }
+
+  .accordion-content {
+    transition-property: max-height;
+    transition-duration: 2s;
+    transition-delay: 0;
+  }
+
+  :is(.title, .text-sm, .text) {
+    line-height: normal;
+    color: var(--gray1);
+    letter-spacing: normal;
+    font-weight: 400;
+  }
+
+  .title {
+    font-size: 48px;
+    font-weight: 900;
+  }
+
+  .text-sm {
+    font-size: 24px;
+  }
+
+  .text {
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .bullet {
+    pointer-events: fill;
+  }
+
+  .bullet:hover>p {
+    transition: opacity 1.5s, height 500ms;
+    opacity: 1;
+  }
+
+  .bullet-lg:hover>p {
+    height: 13rem;
+  }
+
+  .bullet-sm:hover>p {
+    height: 8.5rem;
+  }
+
+  .bullet:hover>.down {
+    transition: opacity 500ms, height 500ms;
+    opacity: 0;
+    height: 0;
+  }
+
+  .image-person {
+    filter: drop-shadow(1px 1px 5px black)
+  }
+
+
+}

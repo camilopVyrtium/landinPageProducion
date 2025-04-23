@@ -1,0 +1,1105 @@
+{
+  "layout": {
+    "header": {
+      "home": "Inicio",
+      "soWeAre": "Así somos",
+      "ia": "IA Aplicada",
+      "ourProcess": "Servicios",
+      "contact": "Contáctanos",
+      "blog": "Blog",
+      "soWeDo": {
+        "title": "Servicios",
+        "options": [
+          "Marketing Digital",
+          "Proyectos de Creación",
+          "Gestión de Redes Sociales",
+          "Producción Audiovisual",
+          "Tecnología",
+          "Relaciones Públicas"
+        ]
+      }
+    },
+    "footer": {
+      "title": "REVOLUCIONA TU NEGOCIO CON VYRTIUM",
+      "description": "¡Destaca tu negocio y cautiva a tu audiencia!",
+      "button": "¡Contáctanos!",
+      "address": "Cra 5a #131-67",
+      "email": "Contact@vyrtium.com",
+      "phone": "+57 317 890 0189"
+    }
+  },
+  "pages": {
+    "homePage": {
+      "banner": {
+        "title": {
+          "part1": "En esta casa",
+          "part2": "hacemos",
+          "part3": "INGENIERÍA DE",
+          "part4": "MARKETING DIGITAL"
+        }
+      },
+      "digitalCaos": {
+        "section1": {
+          "title": "¿Sabes qué es el caos digital?"
+        },
+        "section2": {
+          "title": "Así dominamos el caos, mejorando tus ventas!",
+          "description": "Con una mezcla de datos estratégicos, IA y creatividad, transformamos incertidumbre en <bold>oportunidades</bold> y <bold>clics en clientes</bold>. Aplicamos <bold>ingeniería en Marketing</bold> que <bold>impulsa tu negocio sin límites</bold>."
+        },
+        "bullet1": {
+          "title": "Experiencia",
+          "description": "Equipo interdisciplinario con experiencia en marketing digital, creación audiovisual y programación."
+        },
+        "bullet2": {
+          "title": "Tecnología (IA)",
+          "description": "Potenciamos tu estrategia de marketing digital con inteligencia artificial."
+        },
+        "bullet3": {
+          "title": "Resultados Medibles",
+          "description": "Enfoque basado en datos para resultados medibles y escalables."
+        },
+        "DigitalMarketing": {
+          "question": {
+            "start": "¿",
+            "line1": "Quieres aplicar",
+            "line2": "INGENIERÍA DE MARKETING DIGITAL",
+            "line3": "a tu marca",
+            "end": "?"
+          }
+        }
+      },
+      "orderCaos": {
+        "title": "ASÍ ORDENAMOS EL <bold>CAOS:</bold>",
+        "items": [
+          {
+            "title": "Marketing Digital",
+            "description": "<bold>Fortalecemos tu marca y maximizamos tus resultados con IA,</bold> diseñando estrategias digitales a tu medida que abarcan identidad visual, desarrollo web y e-commerce para impulsar tu presencia online."
+          },
+          {
+            "title": "Proyectos a tu medida",
+            "description": "<bold>Creamos contenido visual a la medida de tus necesidades,</bold> modelado 3D y storyboards, edición de video, efectos visuales, ilustración digital, moldes para inyección y CGI, para que tu marca destaque y conecte con tu audiencia."
+          },
+          {
+            "title": "Gestión de redes sociales",
+            "description": "<bold>Administramos contenido orgánico y pautado</bold> en redes sociales, optimizamos perfiles, analizamos métricas y gestionamos publicidad basada en investigación de mercado para diseñar estrategias de valor que generen <bold>resultados medibles y reales.</bold>"
+          },
+          {
+            "title": "Producción Audiovisual",
+            "description": "Ofrecemos estudio de grabación profesional, gestión de locaciones y asesoría integral (preproducción, posproducción y orientación jurídica) para <bold>crear proyectos de alto valor que destaquen en cualquier plataforma</bold>"
+          },
+          {
+            "title": "IA Aplicada",
+            "description": "Desarrollamos plataformas e-learning, software empresarial, chatbots y asistentes virtuales. Priorizamos la ciberseguridad y la innovación con IA para brindarte sistemas seguros y eficientes que <bold>aceleren tu crecimiento online.</bold>"
+          },
+          {
+            "title": "Relaciones Públicas",
+            "description": "Combinamos marketing experiencial, colaboraciones con influencers, activaciones de marca y eventos memorables para generar <bold>conexiones auténticas con tu audiencia y fortalecer tu reputación.</bold>"
+          }
+        ]
+      },
+      "digitalMarketing": {
+        "question": {
+          "start": "¿",
+          "line1": "Quieres aplicar",
+          "line2": "INGENIERÍA DE MARKETING DIGITAL",
+          "line3": "a tu marca",
+          "end": "?"
+        }
+      },
+      "ia": {
+        "title": "¿Cómo usamos la IA a nuestro favor?",
+        "description": "Integramos la IA en cada fase de nuestras estrategias, maximizando conversiones, optimizando procesos y acelerando el crecimiento de tu marca.",
+        "hero": {
+          "left": {
+            "line1": "Transforma la interacción",
+            "line2": "DE TUS CLIENTES"
+          },
+          "center": "CON IA",
+          "right": {
+            "line1": "Te enseñamos",
+            "line2": "Como hacerlo"
+          }
+        },
+        "button": "Descubre más"
+      },
+      "ourResults": {
+        "title": "Nuestros resultados",
+        "items": [
+          {
+            "title": "CXP: Crypto expert for profits",
+            "text": "Hemos rediseñado la página web. Esto ha mejorado su apariencia y también su funcionalidad. Ahora, los usuarios tienen una experiencia más fluida y agradable al visitarla.",
+            "citeTex": "Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum",
+            "owner": "Fernando Piñango",
+            "job": "CEO CXP Crypto Expert for Profits"
+          },
+          {
+            "title": "CXP2: Crypto expert for profits",
+            "text": "Hemos rediseñado la página web. Esto ha mejorado su apariencia y también su funcionalidad. Ahora, los usuarios tienen una experiencia más fluida y agradable al visitarla.",
+            "citeTex": "Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum",
+            "owner": "Fernando Piñango",
+            "job": "CEO CXP Crypto Expert for Profits"
+          },
+          {
+            "title": "CXP3: Crypto expert for profits",
+            "text": "Hemos rediseñado la página web. Esto ha mejorado su apariencia y también su funcionalidad. Ahora, los usuarios tienen una experiencia más fluida y agradable al visitarla.",
+            "citeTex": "Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum",
+            "owner": "Fernando Piñango",
+            "job": "CEO CXP Crypto Expert for Profits"
+          },
+          {
+            "title": "CXP4: Crypto expert for profits",
+            "text": "Hemos rediseñado la página web. Esto ha mejorado su apariencia y también su funcionalidad. Ahora, los usuarios tienen una experiencia más fluida y agradable al visitarla.",
+            "citeTex": "Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum",
+            "owner": "Fernando Piñango",
+            "job": "CEO CXP Crypto Expert for Profits"
+          }
+        ]
+      },
+      "blog": {
+        "title": "Blog & Artículos: Descubre nuestro último contenido",
+        "description": "Tu rincón exclusivo para informarte del mundo digital. Aquí convergen la innovación, el análisis profundo y la actualidad para transformar tu visión y potenciar tu estrategia. Descubre ideas disruptivas, reflexiones expertas y la información más relevante del universo digital.",
+        "news": [
+          {
+            "title": "La IA avanza de nuevo",
+            "text": "La evolución de las Inteligencias Artificiales no deja de sorprendernos, hoy nuevamente es momento de poner sobre la mesa las implicaciones de estos avances y como afectan el futuro profesional en nuestro ámbito...",
+            "button": "Conoce más"
+          }
+        ],
+        "cards": [
+          {
+            "title": "ElevenLabs: La herramienta de IA que transforma la creación de contenido en Vyrtium Marketing",
+            "text": "En un mundo digital donde la diferenciación de marca es clave, en Vyrtium Marketing implementamos..."
+          },
+          {
+            "title": "El Futuro Está Aquí: El Impacto del Chip Cuántico y Cómo en Vyrtium Nos Mantenemos a la Vanguardia",
+            "text": "¡La revolución cuántica ha comenzado! El reciente anuncio del primer chip cuántico del mundo, utilizando la innovadora..."
+          },
+          {
+            "title": "Apple Intelligence: La Nueva Era de la IA Según Apple",
+            "text": "La compañía tecnológica ha anunciado oficialmente el lanzamiento de Apple Intelligence, su propia plataforma de inteligencia artificial diseñada para..."
+          }
+        ]
+      }
+    },
+    "ia": {
+      "title": "¿Qué hacemos con IA?",
+      "text": {
+        "part1": "En Vyrtium Marketing usamos IA para convertir el caos en resultados reales, ",
+        "strong1": "optimizando procesos, reduciendo costos y mejorando la eficiencia"
+      },
+      "section1": {
+        "title": "Generación de voz",
+        "text": {
+          "part1": "Convierte texto en voz con IA avanzada. ",
+          "strong1": "Creamos narraciones naturales ",
+          "part2": "para videos, podcasts, anuncios y asistentes virtuales, logrando un ",
+          "strong2": "sonido auténtico y profesional."
+        },
+        "section": {
+          "text": "¿Puedes diferenciar cuál es real?"
+        }
+      },
+      "section2": {
+        "title": "Creación de Identidad Visual con IA",
+        "text": {
+          "strong1": "Creamos personajes únicos con IA ",
+          "part1": "para dar identidad a tu marca: desde mascotas corporativas hasta ilustraciones animadas. Generamos contenido visual envolvente que potencia tu impacto digital."
+        }
+      },
+      "section3": {
+        "title": "Generación de Avatares con IA",
+        "text": {
+          "part1": "Desarrollamos avatares digitales hiperrealistas o estilizados con IA para representar personajes. Ideales para videos, asistentes virtuales y campañas, aportan innovación y autenticidad a tu marca."
+        }
+      },
+      "masServiciosConIa": {
+        "title": "Más servicios Con IA",
+        "services": [
+          {
+            "id": "moreServicesWithIA-automatizacion-empresarial",
+            "title": "Automatización empresarial",
+            "text": "Optimizamos procesos potenciados con Inteligencia artificial para reducir tus costos y mejorar tu eficiencia.",
+            "button": {
+              "text": "Cotiza con nosotros"
+            },
+            "bullets": [
+              {
+                "id": "moreServicesWithIA-automatizacion-empresarial-1",
+                "title": "Garantía de calidad",
+                "description": "Creación de soluciones que ayudan a los equipos a conectarse y colaborar para mejorar la eficiencia operativa y cerrar ciclos de retroalimentación más rápido. Garantizar productos sin errores, predecibles y confiables a través de pruebas de automatización, rendimiento, escalabilidad y seguridad. Mejora de la calidad del trabajo."
+              },
+              {
+                "id": "moreServicesWithIA-automatizacion-empresarial-2",
+                "title": "Mejorar la productividad y la eficiencia",
+                "description": "Utilizar capacidades de IA para optimizar procesos, automatizar tareas y mejorar la productividad, permitiendo que los empleados se concentren en el trabajo crítico."
+              },
+              {
+                "id": "moreServicesWithIA-automatizacion-empresarial-3",
+                "title": "Reducir el riesgo operativo",
+                "description": "Desarrollar aplicaciones que aprovechen análisis avanzados y automatización para identificar, evaluar y mitigar riesgos operativos de manera proactiva."
+              }
+            ]
+          },
+          {
+            "id": "moreServicesWithIA-conexion-interna",
+            "title": "Conexión Interna",
+            "text": "Transforma la comunicación de tu empresa con Inteligencia Artificial para mejorar la colaboración y toma de decisiones.",
+            "button": {
+              "text": "Cotiza con nosotros"
+            },
+            "bullets": [
+              {
+                "id": "moreServicesWithIA-conexion-interna-1",
+                "title": "Comunicación Inteligente y Colaboración",
+                "description": "Chatbots y asistentes virtuales internos para consultas y soporte en tiempo real. Automatización de flujos de comunicación para reducir carga de emails y reuniones innecesarias. Análisis de interacciones internas para optimizar el flujo de información. Plataformas de comunicación predictiva que priorizan mensajes clave."
+              },
+              {
+                "id": "moreServicesWithIA-conexion-interna-2",
+                "title": "AI proficiency",
+                "description": "Fomentamos la AI proficiency entre nuestros empleados, capacitándolos para dominar las tecnologías de IA. Esta experiencia se aplica en diversos ámbitos y contextos, resolviendo problemas e impulsando la innovación."
+              },
+              {
+                "id": "moreServicesWithIA-conexion-interna-3",
+                "title": "Gestión del Conocimiento y Procesos",
+                "description": "Búsqueda inteligente: encuentra documentos y datos en segundos. Automatización de reportes y generación de insights para toma de decisiones. Integración de sistemas para que la información fluya sin fricción entre equipos."
+              },
+              {
+                "id": "moreServicesWithIA-conexion-interna-4",
+                "title": "Clima Organizacional",
+                "description": "Encuestas de clima laboral automatizadas con análisis de sentimiento. IA para evaluar engagement y detectar posibles problemas en el equipo. Predicción de tendencias en satisfacción laboral para mejorar retención de talento."
+              }
+            ]
+          },
+          {
+            "id": "moreServicesWithIA-customer-experience",
+            "title": "Customer experience",
+            "text": "Mejoramos la interacción y personalización con Inteligencia Artificial para que tengas el mejor servicio.",
+            "button": {
+              "text": "Cotiza con nosotros"
+            },
+            "bullets": [
+              {
+                "id": "moreServicesWithIA-customer-experience-1",
+                "title": "Mejorar la experiencia del cliente",
+                "description": "Implementamos IA conversacional para reducir tiempos de espera un 50%. Personalizamos el contenido y reducimos los tiempos de espera mediante el desarrollo de aplicaciones con interfaces de lenguaje natural,                 basadas en los datos de tu empresa."
+              },
+              {
+                "id": "moreServicesWithIA-customer-experience-2",
+                "title": "Agentes de IA e integraciones con LLMs y ML",
+                "description": "Desarrollamos agentes de IA que se integran con modelos de lenguaje de gran escala (LLMs) y tecnologías de aprendizaje automático (ML),                 permitiendo una comprensión avanzada del lenguaje, análisis de datos y procesos de toma de decisiones."
+              }
+            ]
+          },
+          {
+            "id": "moreServicesWithIA-produccion-y-contenido",
+            "title": "Producción y Contenido",
+            "text": "Generamos contenido de alta calidad con Inteligencia Artificial para entregarte resultados",
+            "button": {
+              "text": "Cotiza con nosotros"
+            },
+            "bullets": [
+              {
+                "id": "moreServicesWithIA-produccion-y-contenido-1",
+                "title": "Diseño de Experiencia del Usuario (UI/UX)",
+                "description": "Diseñamos experiencias innovadoras y centradas en el usuario que generan productos atractivos. Incluye generación de wireframes, investigación, bocetos, investigación UX, diseño UX, diseño UI, branding, gráficos en movimiento e ilustraciones."
+              },
+              {
+                "id": "moreServicesWithIA-produccion-y-contenido-2",
+                "title": "IA Generativa",
+                "description": "Creación de entornos virtuales realistas, generando contenido de texto, audio e imágenes de alta calidad conapariencia natural."
+              },
+              {
+                "id": "moreServicesWithIA-produccion-y-contenido-3",
+                "title": "Diseño de productos",
+                "description": "Utilizamos IA para generar nuevos diseños de productos, optimizando significativamente el tiempo y esfuerzo requeridos para crear conceptos innovadores."
+              }
+            ]
+          },
+          {
+            "id": "moreServicesWithIA-business-development",
+            "title": "Business developmemt",
+            "text": "Impulsamos el crecimiento con estrategias basadas en IA para nuevos mercados y oportunidades de negocio.",
+            "button": {
+              "text": "Cotiza con nosotros"
+            },
+            "bullets": [
+              {
+                "id": "moreServicesWithIA-business-development-1",
+                "title": "End to End Product development",
+                "description": "Incorporamos competencias y tecnologías adicionales a lo largo de todo el ciclo de vida del producto para crear soluciones innovadoras adaptadas a las cambiantes demandas del mercado."
+              },
+              {
+                "id": "moreServicesWithIA-business-development-2",
+                "title": "Gestión de productos",
+                "description": "Implementamos procesos de mapeo mental, documentación de requisitos de productos (PRDs) y análisis de la competencia."
+              },
+              {
+                "id": "moreServicesWithIA-business-development-3",
+                "title": "Soluciones específicas",
+                "description": "Ofrecemos experiencia especializada para abordar cada desafío dentro del ciclo de vida del desarrollo de software."
+              },
+              {
+                "id": "moreServicesWithIA-business-development-4",
+                "title": "Estrategia de IA",
+                "description": "Brindamos asesoramiento estratégico experto para ayudar a las empresas a adoptar inteligencia artificial y obtener una ventaja competitiva."
+              },
+              {
+                "id": "moreServicesWithIA-business-development-5",
+                "title": "Web 3.0 Blockchain",
+                "description": "Impulsamos una economía de creadores mediante la creación de sistemas descentralizados para la gestión, intercambio y gobernanza de monedas digitales."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "about": {
+      "banner": {
+        "title": {
+          "firstLine": "Todo empezó",
+          "secondLine": "EN CASA"
+        }
+      },
+      "creativeProcess": {
+        "title": "Nuestra historia",
+        "text": "Nacimos con una misión clara: transformar el <bold>marketing digital</bold> a través de la <bold>ingeniería</bold>, combinando datos, creatividad y tecnología avanzada con estrategias efectivas. ",
+        "section": {
+          "title": "Somos Ingeniería en Marketing Digital: ",
+          "items": [
+            {
+              "strong1": "Análisis consciente ",
+              "part1": "del mercado"
+            },
+            {
+              "strong1": "IA ",
+              "part1": "como base para ",
+              "strong2": "optimizar nuestros procesos."
+            },
+            {
+              "part1": "Entrega de ",
+              "strong1": "resultados medibles y escalables ",
+              "part2": "para la mejor toma de decisiones."
+            }
+          ]
+        }
+      },
+      "digitalChaos": {
+        "texts": [
+          {
+            "id": "digitalChaosAbout-text-1",
+            "part1": "En Vyrtium, la innovación y la tecnología no son solo herramientas, sino el núcleo de nuestra identidad. Nacimos con una misión clara: ",
+            "strong1": "transformar el marketing digital a través de la ingeniería, combinando datos, creatividad y tecnología avanzada para generar estrategias altamente efectivas."
+          },
+          {
+            "id": "digitalCaosAsiSomos-text-2",
+            "part1": "Desde el inicio, vimos que necesitábamos ir más allá de los modelos tradicionales. Así nació nuestra propuesta única: ",
+            "strong1": "la Ingeniería en Marketing Digital. ",
+            "part2": "Este enfoque se basa en ",
+            "strong2": "análisis profundo, inteligencia artificial y optimización continua.",
+            "part3": "Esto ayuda a las marcas a obtener resultados que se pueden medir y escalar"
+          }
+        ],
+        "section": {
+          "title": {
+            "part1": "Para lograrlo, creamos el ",
+            "strong1": "Método Vyrtium",
+            "part2": ", una fórmula que define nuestra manera de trabajar:"
+          },
+          "text": {
+            "part1": "Creamos ",
+            "strong1": "estrategias digitales personalizadas",
+            "part2": " y potenciadas por ",
+            "strong2": "IA",
+            "part3": " para que tu marca no solo se vea, ",
+            "strong3": "sino que impacte.",
+            "part4": " Aumentamos tu visibilidad, mejoramos tu posicionamiento en buscadores y maximizamos tu ROI. Más que ",
+            "strong4": "tráfico",
+            "part5": ", generamos ",
+            "strong5": "conversiones.",
+            "part6": " Más que presencia, ",
+            "strong6": "creamos relevancia."
+          },
+          "lastText": "Esta ecuación nos permite diseñar estrategias inteligentes, centradas en crecimiento real, optimización constante y la toma de decisiones basada en datos."
+        }
+      },
+      "howWeConnect": {
+        "testimonial": {
+          "title": "Nuestra historia",
+          "text": "Desde la <bold>ingeniería</bold> aprendí que la <bold>simplicidad, la eficiencia y los resultados son clave</bold>. Hoy aplicamos ese enfoque al marketing digital, combinando estrategia, datos e <bold>IA</bold> para crear soluciones rápidas, precisas y efectivas.",
+          "owner": "Israel Castillo",
+          "profession": "CEO Vyrtium Marketing|"
+        },
+        "section": {
+          "title": "Nuestro equipo",
+          "text": {
+            "part1": "Hoy, ",
+            "strong1": "Vyrtium ",
+            "part2": "es más que una empresa de marketing digital. Somos un equipo de expertos. Combinamos experiencia en creatividad, innovación y tecnología. Así, cada estrategia tiene un impacto real."
+          }
+        }
+      },
+      "ourTeam": {
+        "team1": {
+          "id": "ourTeam-gerencia_y_talento",
+          "title": "Gerencia y Talento humano",
+          "members": {
+            "member1": {
+              "id": "ourTeam-gerencia_y_talento-1",
+              "name": "Israel Castillo",
+              "profession": "CEO Vyrtium Marketing"
+            },
+            "member2": {
+              "id": "ourTeam-gerencia_y_talento-2",
+              "name": "Carolina Morales",
+              "profession": "Gerente media & entertainment"
+            },
+            "member3": {
+              "id": "ourTeam-gerencia_y_talento-3",
+              "name": "Lidumar Castañeda",
+              "profession": "Excelencia operacional"
+            },
+            "member4": {
+              "id": "ourTeam-gerencia_y_talento-4",
+              "name": "Carolina Ribelles",
+              "profession": "Gerente de Lógistica"
+            },
+            "member5": {
+              "id": "ourTeam-gerencia_y_talento-5",
+              "name": "Andrés Martinez",
+              "profession": "Gerente de ventas"
+            }
+          }
+        },
+        "team2": {
+          "id": "ourTeam-produccion_audiovisual",
+          "title": "Producción audiovisual",
+          "members": {
+            "member1": {
+              "id": "ourTeam-produccion_audiovisual-1",
+              "name": "Camila Osorio",
+              "profession": "Productora SR"
+            },
+            "member2": {
+              "id": "ourTeam-produccion_audiovisual-2",
+              "name": "Oscar Rojas",
+              "profession": "Productor SR"
+            }
+          }
+        },
+        "team3": {
+          "id": "ourTeam-diseño-y-posproduccion",
+          "title": "Diseño y posproducción",
+          "members": {
+            "member1": {
+              "id": "ourTeam-diseño-y-posproduccion-1",
+              "name": "Manuel Franco",
+              "profession": "Director Creativo"
+            },
+            "member2": {
+              "id": "ourTeam-diseño-y-posproduccion-2",
+              "name": "Cristian Siolo",
+              "profession": "Postproductor"
+            },
+            "member3": {
+              "id": "ourTeam-diseño-y-posproduccion-3",
+              "name": "Camilo Jimenez",
+              "profession": "Postproductor VFX"
+            },
+            "member4": {
+              "id": "ourTeam-diseño-y-posproduccion-4",
+              "name": "Paula Latorre",
+              "profession": "Motion Graphics"
+            },
+            "member5": {
+              "id": "ourTeam-diseño-y-posproduccion-5",
+              "name": "Aylin Martinez",
+              "profession": "Diseñadora Gráfica"
+            },
+            "member6": {
+              "id": "ourTeam-diseño-y-posproduccion-6",
+              "name": "Kevin Alvarado",
+              "profession": "Diseñador UI/UX"
+            }
+          }
+        },
+        "team4": {
+          "id": "ourTeam-social-media-management",
+          "title": "Social Media Managment",
+          "members": {
+            "member1": {
+              "id": "ourTeam-social-media-management-1",
+              "name": "Juan Camilo Torres",
+              "profession": "Social Media Manager"
+            },
+            "member2": {
+              "id": "ourTeam-social-media-management-2",
+              "name": "Juliana Vega",
+              "profession": "Social Media Manager"
+            },
+            "member3": {
+              "id": "ourTeam-social-media-management-3",
+              "name": "Luisa Fernanda",
+              "profession": "Trafficker"
+            },
+            "member4": {
+              "id": "ourTeam-social-media-management-4",
+              "name": "Luisa Latorre",
+              "profession": "Copywriter"
+            }
+          }
+        }
+      }
+    },
+    "ourProcessCatalog": {
+      "ourServices": {
+        "title": "Nuestros servicios",
+        "text": "En Vyrtium, la innovación y la tecnología no son solo herramientas, sino el núcleo de nuestra identidad. Nacimos con una misión clara: <bold>transformar el marketing digital a través de la ingeniería,</bold> combinando datos creatividad y tecnología avanzada para generar estrategias altamente efectivas.",
+         "services": [
+          {
+            "id": "ourServices-marketing_digital",
+            "title": "Marketing Digital",
+            "button": {
+              "text": "Cotiza con nosotros"
+            },
+            "text": {
+              "part1": "Fortalecemos tu marca y ",
+              "strong1": "maximizamos tus resultados"
+            },
+            "bullets": [
+              {
+                "id": "ourServices-marketing_digital-1",
+                "title": "SET UP + Branding",
+                "description": "Realizamos diagnóstico, co-creación y desarrollo de manual de marca, construyendo una identidad sólida y alineada con los objetivos de tu negocio."
+              },
+              {
+                "id": "ourServices-marketing_digital-2",
+                "title": "Gestión de social media",
+                "description": "Analizamos datos, investigamos el mercado y creamos buyer personas. Desarollamos estrategias, producimos y post producimos contenido, administramos redes sociales y campañas publicitarias, optimizando resultados y generando reportes efectivos."
+              },
+              {
+                "id": "ourServices-marketing_digital-3",
+                "title": "Software de gestión empresarial",
+                "description": "Ofrecemos soluciones para controlar tareas, reportes, certificados, asistencia y beneficios corporativos, optimizando la productividad de tu negocio."
+              },
+              {
+                "id": "ourServices-marketing_digital-4",
+                "title": "Landing page",
+                "description": "Diseñamos páginas estratégicas que impulsan la conversión directa de tu producto o servicio, optimizando resultados y mejorando la experiencia del usuario."
+              },
+              {
+                "id": "ourServices-marketing_digital-5",
+                "title": "E-commerce",
+                "description": "Diseñamos, creamos y programamos plataformas de venta online con pasarelas de pago integradas y facturación electrónica, impulsando tus ventas y optimizando la experiencia del cliente."
+              },
+              {
+                "id": "ourServices-marketing_digital-6",
+                "title": "Google Ads",
+                "description": "Gestionamos campañas efectivas en Google Ads, optimizando el ROI para tu inversión genere los mejores resultados con la máxima eficiencia."
+              },
+              {
+                "id": "ourServices-marketing_digital-7",
+                "title": "Creación de canales",
+                "description": "Monetizamos tu conocimiento con estrategias multicanal. Construimos marcas que conectan con la audiencia, generan ingresos aseguran estabilidad a largo plazo."
+              },
+              {
+                "id": "ourServices-marketing_digital-8",
+                "title": "Desarrollo de avatar con IA",
+                "description": "Creación de personajes con inteligencia artificial, con la capacidad de expresar cualquier contenido de texto, logrando optimización de tiempos en la producción y Posproducción del contenido."
+              },
+              {
+                "id": "ourServices-marketing_digital-9",
+                "title": "Posicionamiento SEO",
+                "description": "Optimizamos la programacion de tu sitio web para que aparezca en los primeros resultados de Google, aumentando su alcance y tráfico orgánico."
+              }
+            ]
+          },
+          {
+            "id": "ourServices-proyectos-de-creacion",
+            "title": "Proyectos de creación",
+            "button": {
+              "text": "Cotiza con nosotros"
+            },
+            "text": {
+              "part1": "Creamos contenido visual a la ",
+              "strong1": "medida de tus necesidades"
+            },
+            "bullets": [
+              {
+                "id": "ourServices-proyectos-de-creacion-1",
+                "title": "Diseño 3D Profesional",
+                "description": "Creamos modelos tridimensionales personalizados para publicidad, arquitectura, e-commerce, videojuegos y realidad virtual. Ofrecemos modelado, renders, animaciones y experiencias en realidad aumentada y virtual, especializaods en diseño industriales, productos y espacios comerciales."
+              },
+              {
+                "id": "ourServices-proyectos-de-creacion-2",
+                "title": "Hub de Diseñadores",
+                "description": "Servicio integral en diseño, animación, postproducción y desarrollo web. Creamos contenido visual de alto impacto, perfectamente alineado con tus objetivos, para que tu marca destaque en redes sociales, publicidad y branding."
+              },
+              {
+                "id": "ourServices-proyectos-de-creacion-3",
+                "title": "Servicio de Storyboard, Guiones Técnicos y Literarios",
+                "description": "Optimiza la narrativa, encuadres y composición para que cada comercial, animación, videoclip o producción cinematográfica se ejecute con precisión y creatividad."
+              },
+              {
+                "id": "ourServices-proyectos-de-creacion-4",
+                "title": "Edición de videos corporativos",
+                "description": "Nuestro servicio integral de posproducción, con corrección y colorización de imagen, aplicación de LUTs y codigicación para redes (internas y externas) y TV, garantiza un resultado impecable y coherente con la identidad de tu marca."
+              },
+              {
+                "id": "ourServices-proyectos-de-creacion-5",
+                "title": "Ilustración digital",
+                "description": "Creamos personajes y diseños conceptuales personalizados, listos para impresión o medios digitales, alineados con tus objetivos y estrategias de marketing."
+              },
+              {
+                "id": "ourServices-proyectos-de-creacion-6",
+                "title": "Moldes de inyección",
+                "description": "Diseñamos piezas, personajes y elementos tridimensionales para producción física e inyección de silicona, adaptados a las necesidades de tu proyecto."
+              },
+              {
+                "id": "ourServices-proyectos-de-creacion-7",
+                "title": "Servicio de Animatic",
+                "description": "Versión preliminar de animaciones o videos con bocetos animados y audio sincronizado. Ayudamos a productoras, agencias y creadores a visualizar y optimizar productos, ahorrando tiempo y costos, y logrando resultados fluidos y efectivos."
+              },
+              {
+                "id": "ourServices-proyectos-de-creacion-8",
+                "title": "Animación 3D",
+                "description": "Generamos imágenes en movimiento a partir de modelos digitales para crear secuencias visuales realistas y atractivas. Usamos Blender, Maya, 3DMax y Rhino para transformar conceptos en experiencias visuales impactantes para diversas aplicaciones."
+              },
+              {
+                "id": "ourServices-proyectos-de-creacion-9",
+                "title": "VFX para producciones",
+                "description": "Creamos efectos especiales de alta calidad para redes sociales, series, cortometrajes y largometrajes, elevando la experiencia visual y fortaleciendo estrategias de contenido digital."
+              },
+              {
+                "id": "ourServices-proyectos-de-creacion-10",
+                "title": "Videojuegos corporativos",
+                "description": "Desarrollamos y programamos videojuegos en Unity y Unreal, en formatos 2D y 3D, totalmente responsive, para impulsar la experiencia de marca y fortalecer estrategias digitales."
+              },
+              {
+                "id": "ourServices-proyectos-de-creacion-11",
+                "title": "Videos CGI",
+                "description": "Creamos anmaciones 3D, efectos visuales y mundos virtuales realistas o fantástivos, adaptadaos a cada proyecto."
+              }
+            ]
+          },
+          {
+            "id": "ourServices-gestion-de-redes-sociales",
+            "title": "Gestión de redes sociales",
+            "button": {
+              "text": "Cotiza con nosotros"
+            },
+            "text": {
+              "part1": "Administramos contenido ",
+              "strong1": "orgánico ",
+              "part2": "y ",
+              "strong2": "pautado ",
+              "part3": "en redes sociales"
+            },
+            "bullets": [
+              {
+                "id": "ourServices-gestion-de-redes-sociales-1",
+                "title": "Administración de Redes Sociales",
+                "description": "Gestionamos tus redes para aumentar visibilidad, fortalecer la audiencia y mejorar conversiones, con planificación, publicación, optimización y publicidad digital."
+              },
+              {
+                "id": "ourServices-gestion-de-redes-sociales-2",
+                "title": "Administración de Pautas Publicitarias",
+                "description": "Equipo interdisciplinario con experiencia en marketing digita, creación audiovisual y programación."
+              },
+              {
+                "id": "ourServices-gestion-de-redes-sociales-3",
+                "title": "Servicio de Community Manager",
+                "description": "Gestionamos e impulsamos comunidades digitales, fortaleciendo la relación entre tu marca y su audiencia. Aumentamos el engagement y optimizamos tu presencia online con interacción en tiempo real, monitoreo de tendencias y análisis de comportamiento."
+              },
+              {
+                "id": "ourServices-gestion-de-redes-sociales-4",
+                "title": "Posicionamiento SEO",
+                "description": "Optimizamos la programacion de tu sitio web para que aparezca en los primeros resultados de Google, aumentando su alcance y tráfico orgánico."
+              },
+              {
+                "id": "ourServices-gestion-de-redes-sociales-5",
+                "title": "Investigación de mercados",
+                "description": "Analizamos el sector o categoría de tu marca para crear estrategias de negocio efectivas, mediante informes detallados que impulsan decisiones clave."
+              },
+              {
+                "id": "ourServices-gestion-de-redes-sociales-6",
+                "title": "Buyer persona",
+                "description": "Creamos perfiles de audiencia y consumidores para que desarrolles estrategias precisas y efectivas en cada punto de contacto."
+              },
+              {
+                "id": "ourServices-gestion-de-redes-sociales-7",
+                "title": "Estrategias de contenido",
+                "description": "Hacemos planes integrales de cómo crear, gestionar, distribuir y medir contenido relevante y valioso para alcanzar objetivos especificos de negocio."
+              },
+              {
+                "id": "ourServices-gestion-de-redes-sociales-8",
+                "title": "Protocolo de respuestas de crisis/manejo de comentarios",
+                "description": "Desarrollamos manuales para gestionar comentarios y enfrentar escenarios criticos en redes sociales, garantizando una comunicación efectiva y oportuna con tu audiencia."
+              }
+            ]
+          },
+          {
+            "id": "ourServices-produccion-audiovisual",
+            "title": "Producción audiovisual",
+            "button": {
+              "text": "Cotiza con nosotros"
+            },
+            "text": {
+              "part1": "preproducción, posproducción y orientación jurídica"
+            },
+            "bullets": [
+              {
+                "id": "ourServices-produccion-audiovisual-1",
+                "title": "Estudio de Fotografía y Video",
+                "description": "Creamos contenido visual de alta calidad para redes sociales, sitios web, y campañas publicitarias. Capturamos la esencia de tu marca con sesiones fotográficas, books profesionales y videos promocionales que comunican tu mensaje de forma efectiva."
+              },
+              {
+                "id": "ourServices-produccion-audiovisual-2",
+                "title": "Dirección de arte, maquillaje e iluminación profesional",
+                "description": "Proyectamos tu marca con contenido de alta calidad, combinando dirección creativa, iluminación y maquillaje profesional. Creamos material impactante para fotografía, video marketing, redes sociales, e-commerce y branding personal, resaltando lo mejor de tu imagen y productos."
+              },
+              {
+                "id": "ourServices-produccion-audiovisual-3",
+                "title": "Producción de Contenidos Digitales: Creación, Rodaje y Distribución",
+                "description": "Creamos, grabamos y editamos contenido audiovisual para redes sociales, streaming, sitios web y campañas publicitarias. Ofrecemos producción integral, desde guiones hasta postproducción, asegurando material optimizado para cada plataforma y público."
+              },
+              {
+                "id": "ourServices-produccion-audiovisual-4",
+                "title": "Estudio de grabación de audio",
+                "description": "Espacios diseñados para capturar tus ideas con la mejor calidad y fidelidad sonora, llevando tu voz al siguiente nivel."
+              },
+              {
+                "id": "ourServices-produccion-audiovisual-5",
+                "title": "Pre producción de proyectos",
+                "description": "Ofrecemos acompañamiento, asesoría, planificación y logística para asegurar producciones exitosas, evitando errores y optimizando recursos para un ahorro efectivo de presupuesto."
+              },
+              {
+                "id": "ourServices-produccion-audiovisual-6",
+                "title": "Gestión de locaciones",
+                "description": "Encontramos el espacio ideal para la producción de tus contenidos, desde casas y bodegas hasta estudios y automóviles, adaptados a las necesidades de tu proyecto."
+              },
+              {
+                "id": "ourServices-produccion-audiovisual-7",
+                "title": "Asesoría y acompañamienot legal en producción de videos",
+                "description": "Garantizamos el cumplimiento legal en todas las etapas del proyecto, desde la planificación hasta la distribución. Revisamos contratos, permisos y derechos de propiedad intelectual, asegurando un proceso transparente y sin riesgos."
+              },
+              {
+                "id": "ourServices-produccion-audiovisual-8",
+                "title": "Servicios de Streaming",
+                "description": "Producimos transmisiones en tiempo real con edición en vivo, equipo en sitio, garantizando calidad profesional y maximizando el alcance de tu marca. Incluye planificación, producción técnica y soporte en tiempo real."
+              }
+            ]
+          },
+          {
+            "id": "ourServices-ia_aplicada",
+            "title": "IA aplicada",
+            "button": {
+              "text": "Cotiza con nosotros"
+            },
+            "text": {
+              "part1": "Ofrecemos ",
+              "strong1": "soluciones tecnológicas personalizadas"
+            },
+            "bullets": [
+              {
+                "id": "ourServices-tecnologia-1",
+                "title": "Desarrollo y Administración de Plataformas E-learning.",
+                "description": "Desarrollamos entornos digitales para enseñanza y capacitación a distancia, adaptados a necesidades corporativas, académicas y cursos online. Integramos tecnología. diseño UX/UI y estrategias de aprendizaje para una experiencia educativa atractiva y efectiva."
+              },
+              {
+                "id": "ourServices-tecnologia-2",
+                "title": "Software de gestión empresarial",
+                "description": "Diseñamos y desarrollamos herramientas para gestión de proyectos, recursos humanos, portales de clientes, automatixaciones, intranet, control de activos y monitoreo, optimizando la eficiencia de tu negocio."
+              },
+              {
+                "id": "ourServices-tecnologia-3",
+                "title": "Chat box y asistentes virtuales",
+                "description": "Automatizamos la comunicación con soluciones de inteligencia artificial que interactúan con usuarios, responden preguntas y mejoran la atención al cliente y aficiencia operativa."
+              },
+              {
+                "id": "ourServices-tecnologia-4",
+                "title": "Ciberseguridad",
+                "description": "Protegemos sistemas y datos contra amenazas digitales con soluciones personalizadas, monitoreo y protocolos de seguridad para funcionamiento seguro y sin interrupciones."
+              }
+            ]
+          },
+          {
+            "id": "ourServices-relaciones_publicas",
+            "title": "Relaciones públicas",
+            "button": {
+              "text": "Cotiza con nosotros"
+            },
+            "text": {
+              "part1": "Creamos ",
+              "strong1": "estrategias de relaciones públicas ",
+              "part2": "personalizadasI"
+            },
+            "bullets": [
+              {
+                "id": "ourServices-relaciones-publicas-1",
+                "title": "Marketing experiencial",
+                "description": "Creamos experiencias inmersivas que conectan marcas con consumidores, diseñando estrategias personalizadas que generan interaccion única y fortalecen la fidelidad del cliente."
+              },
+              {
+                "id": "ourServices-relaciones-publicas-2",
+                "title": "Impresión a gran formato",
+                "description": "Producción de materiales de alta calidad y personalización, ideales para campañas de marketing, comunicación corporativa o necesidades comerciales. Este producto combina tecnología avanzada con rapidez y flexibilidad, permitiendo la creación de piezas gráficas adaptadas a las necesidades especificas de cada cliente."
+              },
+              {
+                "id": "ourServices-relaciones-publicas-3",
+                "title": "Planificación de eventos presenciales",
+                "description": "Planificar y ejecutar eventos en formatos presenciales e híbridos. Gestionar la logística, producción y cobertura mediática de los eventos. Medir el impacto de cada evento y optimizar estrategias futuras."
+              },
+              {
+                "id": "ourServices-relaciones-publicas-4",
+                "title": "Activaciones de marca",
+                "description": "Planificamos y ejecutamos eventos, lanzamientos de productos y campañas de marketing, con cobertura mediática, difusión estratégica y contenido visual promocional."
+              },
+              {
+                "id": "ourServices-relaciones-publicas-5",
+                "title": "Webinar",
+                "description": "Un webinar es una conferencia en línea que permite a las empresas conectar y compartir información con su audiencia en tiempo real. Ofrecemos apoyo completo en su organización, desde la planificación y promoción hasta la transmisión y soporte técnico, garantizando un evento profesional y efectivo."
+              },
+              {
+                "id": "ourServices-relaciones-publicas-6",
+                "title": "Manejo de crisis y Reputación corporativa",
+                "description": "Diseño de protocolos de respuesta a crisis de reputación. Creación de estrategias de comunicación de emergencia, Gestión de crisis en redes sociales y medios de comunicación, Entrenamiento en comunicación de crisis para portavoces de la empresa."
+              },
+              {
+                "id": "ourServices-relaciones-publicas-7",
+                "title": "Freepress",
+                "description": "Redactamos y distribuimos comunicados de prensa gestionamos relaciones con medios, entrevistas, cobertura mediática y analizamos el impacto en prensa."
+              },
+              {
+                "id": "ourServices-relaciones-publicas-8",
+                "title": "Gestión de Influencers y Embajadores de Marca",
+                "description": "Seleccionamos influencers, diseñamos estrategias de colaboración, gestionamos contratos y creamos programas de embajadores para impulsar tu marca."
+              }
+            ]
+          }
+        ]
+      },
+      "contactForm": {
+        "title_1": "Conversemos y",
+        "title_2": "DOMINEMOS EL \n CAOS DIGITAL",
+        "button": "Conversemos",
+        "terms": "Al enviar este formulario aceptas nuestros términos y condiciones y política de tratamiento de datos.",
+        "success": "¡Gracias por contactarnos! Nos pondremos en contacto contigo pronto.",
+        "error": "¡Ups! Algo salió mal. Por favor, inténtalo de nuevo."
+      }
+    },
+    "blog": {
+      "news": [
+        {
+          "id": "new-1",
+          "title": "La IA avanza de nuevo",
+          "text": "La evolución de las Inteligencias Artificiales no deja de sorprendernos, hoy nuevamente es momento de poner sobre la mesa las implicaciones de estos avances y como afectan el futuro profesional en nuestro ámbito...",
+          "button": {
+            "text": "Conoce más"
+          }
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic-1",
+          "title": "Tendencias IA",
+          "cards": [
+            {
+              "id": "topic-1-card-1",
+              "title": "ElevenLabs: La herramienta de IA que transforma la creación de contenido en Vyrtium Marketing",
+              "text": "En un mundo digital donde la diferenciación de marca es clave, en Vyrtium Marketing implementamos...",
+              "categories": [
+                {
+                  "category": "Tendencia IA"
+                },
+                {
+                  "category": "Eleven labs"
+                }
+              ]
+            },
+            {
+              "id": "topic-1-card-2",
+              "title": "El Futuro Está Aquí: El Impacto del Chip Cuántico y Cómo en Vyrtium Nos Mantenemos a la Vanguardia",
+              "text": "¡La revolución cuántica ha comenzado! El reciente anuncio del primer chip cuántico del mundo, utilizando la innovadora....",
+              "categories": [
+                {
+                  "category": "Noticias"
+                },
+                {
+                  "category": "Microsoft"
+                }
+              ]
+            },
+            {
+              "id": "topic-1-card-3",
+              "title": "Apple Intelligence: La Nueva Era de la IA Según Apple",
+              "text": "La compañía tecnológica ha anunciado oficialmente el lanzamiento de Apple Intelligence, su propia plataforma de inteligencia artificial diseñada para ....",
+              "categories": [
+                {
+                  "category": "Tendencia IA"
+                },
+                {
+                  "category": "Apple"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "topic-2",
+          "title": "Tendencias de Marketing y diseño",
+          "cards": [
+            {
+              "id": "topic-2-card-1",
+              "title": "ElevenLabs: La herramienta de IA que transforma la creación de contenido en Vyrtium Marketing",
+              "text": "En un mundo digital donde la diferenciación de marca es clave, en Vyrtium Marketing implementamos...",
+              "categories": [
+                {
+                  "category": "Tendencia IA"
+                },
+                {
+                  "category": "Eleven labs"
+                }
+              ]
+            },
+            {
+              "id": "topic-2-card-2",
+              "title": "El Futuro Está Aquí: El Impacto del Chip Cuántico y Cómo en Vyrtium Nos Mantenemos a la Vanguardia",
+              "text": "¡La revolución cuántica ha comenzado! El reciente anuncio del primer chip cuántico del mundo, utilizando la innovadora....",
+              "categories": [
+                {
+                  "category": "Noticias"
+                },
+                {
+                  "category": "Microsoft"
+                }
+              ]
+            },
+            {
+              "id": "topic-2-card-3",
+              "title": "Apple Intelligence: La Nueva Era de la IA Según Apple",
+              "text": "La compañía tecnológica ha anunciado oficialmente el lanzamiento de Apple Intelligence, su propia plataforma de inteligencia artificial diseñada para ....",
+              "categories": [
+                {
+                  "category": "Tendencia IA"
+                },
+                {
+                  "category": "Apple"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "topic-3",
+          "title": "El lado Vyrtium de las cosas",
+          "cards": [
+            {
+              "id": "topic-3-card-1",
+              "title": "ElevenLabs: La herramienta de IA que transforma la creación de contenido en Vyrtium Marketing",
+              "text": "En un mundo digital donde la diferenciación de marca es clave, en Vyrtium Marketing implementamos...",
+              "categories": [
+                {
+                  "category": "Tendencia IA"
+                },
+                {
+                  "category": "Eleven labs"
+                }
+              ]
+            },
+            {
+              "id": "topic-3-card-2",
+              "title": "El Futuro Está Aquí: El Impacto del Chip Cuántico y Cómo en Vyrtium Nos Mantenemos a la Vanguardia",
+              "text": "¡La revolución cuántica ha comenzado! El reciente anuncio del primer chip cuántico del mundo, utilizando la innovadora....",
+              "categories": [
+                {
+                  "category": "Noticias"
+                },
+                {
+                  "category": "Microsoft"
+                }
+              ]
+            },
+            {
+              "id": "topic-3-card-3",
+              "title": "Apple Intelligence: La Nueva Era de la IA Según Apple",
+              "text": "La compañía tecnológica ha anunciado oficialmente el lanzamiento de Apple Intelligence, su propia plataforma de inteligencia artificial diseñada para ....",
+              "categories": [
+                {
+                  "category": "Tendencia IA"
+                },
+                {
+                  "category": "Apple"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "blogDetail": {
+      "textOwner": "Realizado por: ",
+      "textSimilar": "También te puede interesar...",
+      "news": {
+        "la-IA-avanza-de-nuevo": {
+          "title": "La IA avanza de nuevo",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.",
+          "sections": [
+            {
+              "title": "Paso 1",
+              "text": "Torem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus. Curabitur tempor quis eros tempus lacinia. Nam bibendum pellentesque quam a convallis. Sed ut vulputate nisi. Integer in felis sed leo vestibulum venenatis. Suspendisse quis arcu sem. Aenean feugiat ex eu vestibulum vestibulum. Morbi a eleifend magna. Nam metus lacus, porttitor eu mauris a, blandit ultrices nibh. Mauris sit amet magna non ligula vestibulum eleifend. Nulla varius volutpat turpis sed lacinia. Nam eget mi in purus lobortis eleifend. Sed nec ante dictum sem condimentum ullamcorper quis venenatis nisi. Proin vitae facilisis nisi, ac posuere leo."
+            },
+            {
+              "title": "Paso 2",
+              "text": "Torem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus. Curabitur tempor quis eros tempus lacinia. Nam bibendum pellentesque quam a convallis. Sed ut vulputate nisi. Integer in felis sed leo vestibulum venenatis. Suspendisse quis arcu sem. Aenean feugiat ex eu vestibulum vestibulum. Morbi a eleifend magna. Nam metus lacus, porttitor eu mauris a, blandit ultrices nibh. Mauris sit amet magna non ligula vestibulum eleifend. Nulla varius volutpat turpis sed lacinia. Nam eget mi in purus lobortis eleifend. Sed nec ante dictum sem condimentum ullamcorper quis venenatis nisi. Proin vitae facilisis nisi, ac posuere leo."
+            },
+            {
+              "title": "Paso 3",
+              "text": "Torem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus. Curabitur tempor quis eros tempus lacinia. Nam bibendum pellentesque quam a convallis. Sed ut vulputate nisi. Integer in felis sed leo vestibulum venenatis. Suspendisse quis arcu sem. Aenean feugiat ex eu vestibulum vestibulum. Morbi a eleifend magna. Nam metus lacus, porttitor eu mauris a, blandit ultrices nibh. Mauris sit amet magna non ligula vestibulum eleifend. Nulla varius volutpat turpis sed lacinia. Nam eget mi in purus lobortis eleifend. Sed nec ante dictum sem condimentum ullamcorper quis venenatis nisi. Proin vitae facilisis nisi, ac posuere leo."
+            }
+          ],
+          "similar": [
+            {
+              "id": "topic-1-card-1",
+              "title": "ElevenLabs: La herramienta de IA que transforma la creación de contenido en Vyrtium Marketing",
+              "text": "En un mundo digital donde la diferenciación de marca es clave, en Vyrtium Marketing implementamos...",
+              "categories": [
+                {
+                  "category": "Tendencia IA"
+                },
+                {
+                  "category": "Eleven labs"
+                }
+              ]
+            },
+            {
+              "id": "topic-1-card-2",
+              "title": "El Futuro Está Aquí: El Impacto del Chip Cuántico y Cómo en Vyrtium Nos Mantenemos a la Vanguardia",
+              "text": "¡La revolución cuántica ha comenzado! El reciente anuncio del primer chip cuántico del mundo, utilizando la innovadora....",
+              "categories": [
+                {
+                  "category": "Noticias"
+                },
+                {
+                  "category": "Microsoft"
+                }
+              ]
+            },
+            {
+              "id": "topic-1-card-3",
+              "title": "Apple Intelligence: La Nueva Era de la IA Según Apple",
+              "text": "La compañía tecnológica ha anunciado oficialmente el lanzamiento de Apple Intelligence, su propia plataforma de inteligencia artificial diseñada para ....",
+              "categories": [
+                {
+                  "category": "Tendencia IA"
+                },
+                {
+                  "category": "Apple"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}
