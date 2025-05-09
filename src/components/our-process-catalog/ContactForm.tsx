@@ -7,7 +7,7 @@ import { Input } from "../common/Input";
 import { InputSelect } from "../common/InputSelect";
 import { form } from "@/data/commonData";
 import Image from "next/image";
-
+import banner from '@/assets/images/our-process-catalog/contact-form/banner.png'
 const API_URL = "https://vyrtium.com/api/form";
 
 export const ContactForm = () => {
@@ -67,10 +67,10 @@ export const ContactForm = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 md:grid-rows-1 gap-0 md:gap-4 pt-10">
       <div className="relative flex flex-col items-start justify-start md:pb-0 pb-28">
-        <h2 className="text-red1 font-black text-2xl md:text-3xl">
+        <h2 className="text-red1 font-black text-[17px] md:text-3xl">
           {t("title_1")}
         </h2>
-        <h2 className="text-gray3 font-black text-3xl w-[80%] md:w-[60%] md:text-4xl whitespace-pre-line">
+        <h2 className="text-gray3 font-black text-base w-[80%] md:w-[60%] md:text-4xl whitespace-pre-line">
           {t("title_2")}
         </h2>
         <Image
@@ -78,7 +78,7 @@ export const ContactForm = () => {
           height={100}
           className="absolute top-0 right-0 h-full -z-10 md:w-[22rem] sm:w-[18rem]"
           alt="Contact form image"
-          src="/images/our-process-catalog/contact-form/banner.png"
+          src={banner}
         />
       </div>
       <div className="flex flex-col items-center justify-center pb-8">

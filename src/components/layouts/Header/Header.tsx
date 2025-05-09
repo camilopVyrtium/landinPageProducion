@@ -7,7 +7,9 @@ import Button from "@/components/common/Button";
 import Logo from "@/components/common/Logo";
 import { useTranslations } from "next-intl";
 import MobileSidebar from "@/components/layouts/Header/MobileSidebar";
+import menuBurger from '@/assets/icons/icon-menu.svg'
 import { useState } from "react";
+import Link from "next/link";
 
 export default function Header() {
   const pathname = usePathname();
@@ -23,8 +25,10 @@ export default function Header() {
   return (
     <>
       {/* version de escritorio */}
-      <header className="z-50 fixed top-0 w-full backdrop-blur-lg bg-[--yellow4] pb-12 pt-6 flex justify-center items-start gap-20 max-[120rem] hidden lg:flex shadow-md">
-        <Logo width={200} height={200} className="md:w-[150px] w-[100px]"  />
+      <header className="z-50 fixed top-0 w-full backdrop-blur-lg bg-[--yellow4] pb-12 pt-6 justify-center items-start gap-20 max-[120rem] hidden lg:flex shadow-md">
+        <Link href={'/'}>
+          <Logo width={200} height={200} className="md:w-[150px] w-[100px]" />
+        </Link>
         <NavbarOptions activePath={pathname} />
         <Button {...buttonProps}>
           {t("contact")}
@@ -33,14 +37,16 @@ export default function Header() {
       {/* version de celular */}
       <header className="px-4 block lg:hidden">
         <div className="p-4 flex items-center justify-between">
-          <Logo width={150} height={100} />
+          <Link href={'/'}>
+            <Logo width={150} height={100} />
+          </Link>
           <button
             onClick={() => {
               setIsOpen(!isOpen);
             }}
           >
             <Image
-              src="/icons/icon-menu.svg"
+              src={menuBurger}
               alt="Logo"
               width={38}
               height={38}

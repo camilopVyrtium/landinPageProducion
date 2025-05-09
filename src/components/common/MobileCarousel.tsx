@@ -1,23 +1,27 @@
 import React from 'react';
 import clsx from 'clsx';
 import { Slider } from '@/components/common/Slider/Slider';
-
+import face1 from '@/assets/images/home/face1.png';
+import face2 from '@/assets/images/home/face2.png';
+import face3 from '@/assets/images/home/face3.png';
+import face4 from '@/assets/images/home/face4.png';
+import Image from 'next/image';
 const items = [
     {
       id: "1",
-      backgroundImage: "/images/home/face1.png",
+      backgroundImage: face1,
     },
     {
       id: "2",
-      backgroundImage: "/images/home/face2.png",
+      backgroundImage: face2,
     },
     {
       id: "3",
-      backgroundImage: "/images/home/face3.png",
+      backgroundImage: face3,
     },
     {
       id: "4",
-      backgroundImage: "/images/home/face4.png",
+      backgroundImage: face4,
     },
   ];
 
@@ -39,7 +43,7 @@ export const IaCarousel: React.FC<IaCarouselProps> = ({
                         key={item.id} 
                         className={clsx("relative w-full", height)}
                     >
-                        <img
+                        <Image
                             src={item.backgroundImage}
                             alt="Slide image"
                             className="w-full h-full object-cover"

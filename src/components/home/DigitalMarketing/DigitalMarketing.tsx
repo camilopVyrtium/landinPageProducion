@@ -3,14 +3,14 @@ import Image from 'next/image';
 import { digitalMarketing } from '@/data/homeData';
 import Button from '@/components/common/Button';
 import { useTranslations } from 'next-intl';
-
+import digitalMarketingDivition from '@/assets/images/home/digitalMarketingDivition.svg'
 export const DigitalMarketing = () => {
     const { animation, button } = digitalMarketing;
     const { text, variant } = button;
 
     const t = useTranslations("pages.homePage.digitalMarketing");
     return (
-        <div className={clsx("flex flex-col items-center", "md:flex-row md:px-16")} id='digital-marketing'>
+        <div className={clsx("flex flex-col items-center", "md:flex-row")} id='digital-marketing'>
             <video autoPlay muted loop preload='none' className={clsx('max-w-full', 'md:w-1/2')}>
                 <source {...animation} />
             </video>
@@ -25,8 +25,8 @@ export const DigitalMarketing = () => {
                     <span className={clsx("text-5xl self-end", "lg:text-8xl")}>{t("question.end")}</span>
                 </div>
                 <div className='relative'>
-                    <Button showModalContact variant={variant} className={clsx(`absolute bottom-1/2 right-7`)}>{text}</Button>
-                    <Image src={'/images/home/digitalMarketingDivition.svg'} alt='divition' className='max-w-full mb-4' width={1000} height={144} />
+                    <Button showModalContact variant={variant} className={clsx(`absolute top-[0.5rem] md:top-0  md:bottom-1/2 right-7`)}>{text}</Button>
+                    <Image src={digitalMarketingDivition} alt='divition' className='max-w-full mb-4 hidden md:block' width={1000} height={144} />
                 </div>
             </div>
 

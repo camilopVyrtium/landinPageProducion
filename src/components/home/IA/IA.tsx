@@ -8,7 +8,6 @@ export const IA = () => {
   return (
     <>
       <IATop />
-       {/* Carousel cara IA */}
        <IaCarousel height="h-[700px]" />  
       <IAAnimation />
       <IABottom />

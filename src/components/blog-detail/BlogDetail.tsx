@@ -31,23 +31,23 @@ export const BlogDetail = ({ slug }: Props) => {
             <div className={clsx("relative rounded-xl shadow-gray-600 shadow-lg", "lg:max-h-[42rem]")}>
                 <Image src={image} alt="newImage" width={1000} height={300} className={clsx("w-full -z-10 rounded-xl min-h-[32rem]", "lg:max-h-[42rem]")} loading="lazy" />
             </div>
-            <h2 className={"text-[6vw] font-black mt-16"}>{title}</h2>
-            <div className={"text-gray2 text-4xl mb-12"}>{formattedDate}</div>
-            <p className={clsx("text-xl", "md:text-2xl")}>{text}</p>
+            <h2 className={"text-[min(6vw,56px)] font-black mt-16 mb-4"}>{title}</h2>
+            <span className={"inline-block text-gray2 text-2xl lg:text-3xl mb-8"}>{formattedDate}</span>
+            <p className={"text-base !leading-[22px] md:!leading-[26px] md:text-[18px] lg:text-xl lg:!leading-[32px]"}>{text}</p>
             <div className="mb-8">
                 {
                     sections.map(({ id, text, title, image }) =>
                     (
-                        <div key={id} className="my-16">
-                            <h3 className={clsx("text-2xl", "md:text-3xl", "lg:w-auto")}>{title}</h3>
-                            <p className={clsx("text-xl my-4", "md:text-2xl")}>{text}</p>
+                        <div key={id} className="my-8 lg:my-16">
+                            <h3 className={clsx("text-2xl lg:text-3xl my-4")}>{title}</h3>
+                            <p className={"text-base !leading-[22px] md:!leading-[26px] md:text-[18px] lg:text-xl lg:!leading-[32px] my-4"}>{text}</p>
                             {image && <Image src={image} alt={`image`} height={236.243} width={400} className="w-full" />}
                         </div>
                     ))
                 }
             </div>
-            <p className="text-2xl font-bold">{textOwner} {owner}</p>
-            <h3 className={clsx("text-[7vw] text-blue1 font-bold my-4", "md:text-6xl")}>{textSimilar}</h3>
+            <p className="text-xl lg:text-3xl font-bold">{textOwner} {owner}</p>
+            <h3 className={clsx("text-[24px] text-blue1 font-bold my-4", "lg:text-3xl")}>{textSimilar}</h3>
             {/* Mobile Similar */}
             <Slider actualPointColor="#64d2d9" className={clsx("mb-20", "md:hidden")}>
                 {similar.map(({ id, ...card }) => (

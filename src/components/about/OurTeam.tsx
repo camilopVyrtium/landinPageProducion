@@ -11,14 +11,14 @@ export const OurTeam = () => {
   const t = useTranslations("pages.about.ourTeam");
   const nuestroEquipo = getOurTeam(t);
   return (
-    <div className="mb-20 max-w-[1920px]" id="nuestro-equipo">
+    <div className="mb-[8rem] max-w-[1920px]" id="nuestro-equipo">
       <div className={clsx("hidden", "lg:block")}>
         {nuestroEquipo.map(({ id, title, members, line }, index) => (
           <div key={id} className={clsx("relative my-10")}>
             <Accordion
               title={title}
               classNameTitle={clsx(
-                `relative text-xs inline-block max-w-full w-fit top-[2vh] gap-0 w-[60%]`,
+                `relative inline-block max-w-full w-fit top-[2vh] gap-0 w-[60%] font-semibold`,
                 "lg:top-[4vh] lg:w-[50vw]",
               )}
               styleTitle={{ left: `${25 + index * 3}%` }}
@@ -46,15 +46,16 @@ export const OurTeam = () => {
         ))}
       </div>
       {/* Version MD and SM */}
-      <div className={clsx("block", "lg:hidden")}>
+      <div className={clsx("block", "lg:hidden -mt-16")}>
         {nuestroEquipo.map(({ id, title, members, color }) => (
           <div key={id} className="relative my-10">
             <Accordion
               title={title}
+              classNameTitle="font-semibold"
             >
               <div
                 className={clsx(
-                  "flex justify-start mt-20 ml-4 flex-wrap max-w-full gap-8",
+                  "flex md:justify-start justify-center mt-20 ml-4 flex-wrap max-w-full gap-8",
                   "md:ml-32 md:gap-20"
                 )}
                 style={{ scrollbarWidth: "none" }}

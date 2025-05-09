@@ -1,3 +1,6 @@
+import { ProfitIcons } from "@/constants/profitIcons";
+import { StaticImageData } from "next/image";
+
 export interface Cite {
     text: string;
     owner: string;
@@ -6,7 +9,7 @@ export interface Cite {
 
 export interface Profit {
     id: string;
-    image: string;
+    icon: ProfitIcons;
     text: string;
 }
 export interface Result {
@@ -14,8 +17,9 @@ export interface Result {
     title: string;
     text: string;
     cite: Cite;
-    image: string;
-    line: string;
+    image: string | StaticImageData;
+    color?: string;
+    textColor?: string;
     profits: Profit[];
 }
 export interface OurResults {

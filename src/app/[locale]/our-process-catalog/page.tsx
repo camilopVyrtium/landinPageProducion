@@ -2,7 +2,8 @@ import { OurServices } from "@/components/our-process-catalog/OurServices";
 import { Banner } from "@/components/our-process-catalog/Banner";
 import { Metadata } from "next";
 // import { OurResults } from "@/components/home/OurResults/OurResults";
-import { ContactForm } from "@/components/our-process-catalog/ContactForm";
+import { locales } from "@/constants/locales";
+import { Contact } from "@/components/our-process-catalog/Contact";
 
 export const metadata: Metadata = {
   title: "Catálogo de Servicios | Vyrtium Marketing",
@@ -17,15 +18,19 @@ export const metadata: Metadata = {
     type: 'website',
   },
 };
-
+export const generateStaticParams = async () => {
+  return locales.map((locale) => ({
+    locale
+  }))
+}
 export default function CatalogoAsiLoHacemos() {
   return (
     <div>
       <Banner />
       <OurServices />
-      <div className="w-11/12 mx-auto mt-32">
+      <div className="w-[85%] md:w-[80%] mx-auto -mt-12 lg:mt-32">
         {/* <OurResults /> */}
-        <ContactForm />
+        <Contact />
       </div>
     </div>
   );

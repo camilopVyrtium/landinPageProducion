@@ -62,7 +62,7 @@ export default function NavbarOptions({ activePath }: { activePath: string }) {
               </>
             ) : (
                 <Button
-                  className="pt-2 mt-2 text-sm 2xl:text-2xl 3xl:text-3xl font-bold"
+                  className="pt-2 mt-2 text-sm 2xl:text-xl 3xl:text-3xl font-bold"
                   variant={
                     activePath === option.endpoint ? "secondary" : "transparent"
                   }

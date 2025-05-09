@@ -3,12 +3,15 @@ import { DigitalCaos } from "@/components/home/DigitalCaos/DigitalCaos";
 import { IA } from "@/components/home/IA/IA";
 import HeaderVideo from "@/components/home/HeaderVideo/HeaderVideo";
 // import { OurResults } from "@/components/home/OurResults/OurResults";
-import { Blog } from "@/components/home/Blog/Blog";
+// import { Blog } from "@/components/home/Blog/Blog";
 import OrderCaos from "@/components/home/OrderCaos/OrderCaos";
 import Animation from "@/components/common/Animation";
 import { Metadata } from "next";
 import { shouldShowSpline } from "@/lib/should-show-spline";
-
+import { locales } from "@/constants/locales";
+import { Contact } from "@/components/our-process-catalog/Contact";
+import { OurResults } from "@/components/home/OurResults/OurResults";
+import { Funner } from "@/components/home/Funner/Funner";
 export const metadata: Metadata = {
   title: "Vyrtium Marketing - Ingeniería de Marketing Digital",
   description:
@@ -25,7 +28,11 @@ export const metadata: Metadata = {
     type: "website",
   },
 };
-
+export const generateStaticParams = async () => {
+  return locales.map((locale) => ({
+    locale,
+  }));
+};
 export default async function Home() {
   const showSpline = await shouldShowSpline();
   return (
@@ -33,17 +40,17 @@ export default async function Home() {
       <HeaderVideo />
       <Banner />
       <DigitalCaos />
-      {showSpline && (
-        <Animation
-          height="40rem"
-          scene="https://prod.spline.design/AyjygaiQbXW5VevE/scene.splinecode"
-        />
-      )}
+      <Funner />
       <OrderCaos />
-      {/* <OurResults /> */}
       <IA />
-      <div className="md:px-16 px-4">
+      {/* <div className="w-[85%] md:w-[80%] mb-10 mx-auto">
         <Blog />
+      </div> */}
+      <div className="w-[85%] md:w-[80%] mx-auto">
+        <OurResults />
+      </div>
+      <div className="w-[85%] md:w-[80%] mx-auto mt-16">
+        <Contact />
       </div>
     </>
   );

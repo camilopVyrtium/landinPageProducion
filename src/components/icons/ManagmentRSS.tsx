@@ -1,0 +1,9 @@
+import { IconProps } from "@/interfaces/common/IconProps"
+
+export const ManagmentRSS = ({ color = "#000", className }: IconProps) => {
+    return (
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" className={className}>
+            <path fill="none" stroke={color} strokeMiterlimit={10} d="M36.37,11.14H13.63c-3.15,0-5.71,2.55-5.71,5.71v14.19c0,3.15,2.55,5.71,5.71,5.71h6.8l4,4.23c.23.25.63.25.87.01l4.24-4.24h6.83c3.15,0,5.71-2.55,5.71-5.71v-14.19c0-3.15-2.55-5.71-5.71-5.71ZM16.41,32.52c0-4.74,3.85-8.59,8.59-8.59-2.74,0-4.96-2.22-4.96-4.96s2.22-4.96,4.96-4.96,4.96,2.22,4.96,4.96-2.22,4.96-4.96,4.96c4.74,0,8.59,3.85,8.59,8.59h-17.18Z" />
+        </svg>
+    )
+}

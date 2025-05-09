@@ -82,7 +82,7 @@ function Animation({ scene, height }: { scene: string; height: string }) {
   return (
     <div
       style={{ height }}
-      className="relative block overflow-x-hidden max-w-screen"
+      className="relative overflow-x-hidden max-w-screen hidden md:block"
     >
       <ErrorBoundary FallbackComponent={ErrorFallback}>
         <Suspense fallback={<div className="text-white">Cargando mapa...</div>}>

@@ -3,7 +3,8 @@
 import clsx from "clsx";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-
+import decorationBanner from "@/assets/images/common/decorationBaner.svg"
+import personBanner from '@/assets/images/about/banner.png';
 export const Banner = () => {
   const t = useTranslations("pages.about.banner");
 
@@ -56,7 +57,7 @@ export const Banner = () => {
           <Image
             width={40}
             height={200}
-            src="/images/common/decorationBaner.svg"
+            src={decorationBanner}
             alt="decoration banner"
             className={clsx(
               "h-full",
@@ -73,7 +74,7 @@ export const Banner = () => {
         <Image
           width={436}
           height={198}
-          src="/images/about/banner.png"
+          src={personBanner}
           alt="person banner"
           className={clsx(
             "w-[370px]",

@@ -5,7 +5,8 @@ import { WhatWeDoWithAI } from "@/components/IA/WhatIA/WhatWeDoWithAI";
 import Animation from "@/components/common/Animation";
 import { shouldShowSpline } from "@/lib/should-show-spline";
 import { IaCarousel } from "@/components/common/MobileCarousel";
-import { ContactForm } from "@/components/our-process-catalog/ContactForm";
+import { locales } from "@/constants/locales";
+import { Contact } from "@/components/our-process-catalog/Contact";
 
 export const metadata: Metadata = {
   title: "IA Aplicada | Vyrtium Marketing",
@@ -23,7 +24,11 @@ export const metadata: Metadata = {
     type: "website",
   },
 };
-
+export const generateStaticParams = async () => {
+  return locales.map((locale) => ({
+    locale
+  }))
+}
 export default async function IA() {
   const showSpline = await shouldShowSpline();
   return (
@@ -33,14 +38,15 @@ export default async function IA() {
         <Animation
           height="60rem"
           scene="https://prod.spline.design/uWqID-6dp1DQg86Z/scene.splinecode"
+          // scene="https://prod.spline.design/AJRvIagEZAELaKrr/scene.splinecode"
         />
       )}
-      <div className="w-11/12 mx-auto mt-32">
+      <div className="w-[85%] md:w-[80%] mx-auto mt-14 md:mt-20">
         <WhatWeDoWithAI />
       </div>
       <MasServiciosConIA />
-      <div className="w-11/12 mx-auto mt-32">
-        <ContactForm />
+      <div className="w-[85%] md:w-[80%] mx-auto -mt-16">
+        <Contact />
       </div>
     </div>
   );

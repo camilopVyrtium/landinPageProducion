@@ -8,24 +8,25 @@ export const IABottom = () => {
   const t = useTranslations("pages.homePage.ia");
 
   return (
-    <div className="px-4 sm:px-12 md:px-16 lg:px-32">
+    <div className="w-[85%] md:w-[80%] mx-auto mt-6 lg:mt-16">
       <div className="flex flex-col">
         <div
           className={clsx(
-            "mt-4 text-[--blue1] font-black flex flex-col",
-            "lg:grid lg:grid-cols-3 lg:items-center lg:justify-between"
+            " text-[--blue1] font-black flex flex-col md:w-fit md:mx-auto",
+            "lg:flex lg:items-center lg:flex-row lg:justify-between gap-3 lg:w-full"
           )}
         >
           <div>
             <div
-              className={clsx("text-3xl", "2xl:text-[2.2rem] md:text-[1.6rem]")}
+              className={clsx("text-3xl lg:mb-4", "2xl:text-[38px] md:text-[1.6rem] w-fit")}
             >
               {t("hero.left.line1")}
             </div>
             <div
               className={clsx(
-                "text-4xl",
-                "2xl:text-[3.2rem] lg:mt-3 md:text-[2.4rem]"
+                // "text-4xl",
+                "text-3xl",
+                "2xl:text-[54px] md:text-[2.4rem] w-max"
               )}
             >
               {t("hero.left.line2")}
@@ -33,22 +34,22 @@ export const IABottom = () => {
           </div>
           <div
             className={clsx(
-              "text-[--gray3] text-3xl text-center",
-              "md:text-4xl lg:text-[5vw] xl:text-[6.5vw]"
+              "text-[--gray3] text-[clamp(30px,10vw,60px);] text-center w-full",
+              "md:text-4xl lg:text-[5vw] xl:text-[115px] xl:leading-[101px] md:w-fit 2xl:w-min"
             )}
           >
             {t("hero.center")}
           </div>
-          <div className="2xl:gap-2 flex flex-col">
+          <div className="flex flex-col">
             <div
-              className={clsx("text-3xl", "2xl:text-[3.8rem] md:text-[2.5rem]")}
+              className={clsx("text-3xl lg:mb-4", "2xl:text-[38px] md:text-[26px] leading-[26px] w-fit")}
             >
               {t("hero.right.line1")}
             </div>
             <div
               className={clsx(
                 "text-4xl",
-                "2xl:text-[4rem] lg:mt-3 md:text-[2.9rem]"
+                "2xl:text-[54px] 2xl:text-[] md:text-[26px] leading-[26px] w-fit"
               )}
             >
               {t("hero.right.line2")}
@@ -58,7 +59,7 @@ export const IABottom = () => {
         <Button
           href="/ia"
           variant="primary"
-          className="self-end 2xl:mt-8 md:mt-4 mr-4 sm:mr-8 md:mr-16"
+          className="self-end 2xl:mt-8 mt-4 mr-4 md:mr-16 p-2"
         >
           {t("button")}
         </Button>

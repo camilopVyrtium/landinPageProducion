@@ -25,9 +25,9 @@
   max-width: 1920px;
 }
 
-* {
+/* * {
   line-height: normal !important;
-}
+} */
 
 body {
   color: var(--foreground);
@@ -42,13 +42,13 @@ body {
 
 @layer components {
   .section-new-lg {
-    background-image: url('/images/common/new-section-lg.svg');
+    background-image: url('../../assets/images/common/new-section-lg.svg');
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .section-new-sm {
-    background-image: url('/images/common/new-section-sm.svg');
+    background-image: url('../../assets/images/common/new-section-sm.svg');
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -90,11 +90,11 @@ body {
     border-radius: 8px;
   }
 
-  .accordion-content {
+  /* .accordion-content {
     transition-property: max-height;
     transition-duration: 2s;
     transition-delay: 0;
-  }
+  } */
 
   :is(.title, .text-sm, .text) {
     line-height: normal;
@@ -123,17 +123,21 @@ body {
   }
 
   .bullet:hover>p {
-    transition: opacity 1.5s, height 500ms;
+    transition: opacity 1.5s, max-height 500ms;
     opacity: 1;
   }
 
-  .bullet-lg:hover>p {
-    height: 13rem;
+  .bullet-sm {
+    min-height: 110px;
   }
 
-  .bullet-sm:hover>p {
-    height: 8.5rem;
+  .bullet:hover>p {
+    max-height: 17rem;
   }
+
+  /* .bullet-sm:hover>p {
+    max-height: 8.5rem;
+  } */
 
   .bullet:hover>.down {
     transition: opacity 500ms, height 500ms;
@@ -145,5 +149,32 @@ body {
     filter: drop-shadow(1px 1px 5px black)
   }
 
+  :root:has(.maximaze) {
+    overflow-y: hidden;
+  }
 
+}
+
+.animate-slide-in-left {
+  animation: slideInLeft 1s ease-out forwards;
+}
+
+.animate-slide-in-right {
+  animation: slideInRight 1s ease-out forwards;
+}
+
+.group:hover .infofunner-escalera:nth-child(1) {
+  transform: translateX(0.5rem);
+  transition: transform 0.4s cubic-bezier(0.4,0,0.2,1);
+}
+.group:hover .infofunner-escalera:nth-child(2) {
+  transform: translateX(2.5rem);
+  transition: transform 0.4s cubic-bezier(0.4,0,0.2,1);
+}
+.group:hover .infofunner-escalera:nth-child(3) {
+  transform: translateX(4.5rem);
+  transition: transform 0.4s cubic-bezier(0.4,0,0.2,1);
+}
+.infofunner-escalera {
+  transition: transform 0.4s cubic-bezier(0.4,0,0.2,1);
 }

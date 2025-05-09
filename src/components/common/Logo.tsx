@@ -1,5 +1,6 @@
 import Image from "next/image";
-
+import logo from '@/assets/images/common/logo.png';
+import logoWhite from '@/assets/images/common/logo-white.png';
 interface LogoProps {
   width?: number;
   height?: number;
@@ -12,7 +13,7 @@ const Logo: React.FC<LogoProps> = ({ width, height, className, variant = "primar
     console.warn("Width and height should be provided for the logo.");
   }
 
-  const logoSrc = variant === "primary" ? "/images/common/logo.png" : "/images/common/logo-white.png";
+  const logoSrc = variant === "primary" ? logo : logoWhite;
 
   return (
     <div className={className}>

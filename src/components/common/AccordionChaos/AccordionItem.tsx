@@ -66,9 +66,9 @@ export const AccordionItem = ({
           className="group z-50 py-4 flex items-center h-full justify-between pr-8 md:pr-0 md:w-[40%] w-[70%] cursor-pointer transition-transform duration-300 ease-in-out"
           onClick={handleClick}
         >
-          <p className="md:text-3xl text-lg font-medium group-hover:font-bold text-center">
+          <h3 className={clsx("text-xl max-[453px]:text-[clamp(14px,4vw,18px)] font-bold md:font-medium text-center", "lg:text-3xl md:group-hover:font-bold")}>
             {title}
-          </p>
+          </h3>
           <Image
             loading="lazy"
             src={down}
@@ -104,7 +104,8 @@ export const AccordionItem = ({
       >
         <div
           className={clsx(
-            "flex z-20 flex-col px-4 bg-transparent md:flex-row md:justify-between items-center gap-4 md:pt-4 md:w-[50%] w-[80%] md:ml-[10%] ml-[10%]",
+            // lg:items-center
+            "flex z-20 flex-col bg-transparent md:items-start  gap-4 md:pt-4 md:w-[50%] w-[80%] md:ml-[10%] ml-[30%]",
             "transition-all duration-300",
             isItemOpen ? "translate-y-0 opacity-100" : "translate-y-8 opacity-0"
           )}
@@ -115,6 +116,7 @@ export const AccordionItem = ({
             variant={varianButton}
             className={clsx(
               "transition-all duration-300 ease-in-out",
+              "text-sm min-h-[auto] w-fit",
               isItemOpen
                 ? "translate-y-0 opacity-100"
                 : "translate-y-8 opacity-0"

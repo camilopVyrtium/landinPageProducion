@@ -9,7 +9,7 @@ interface CardBlog {
     icon: string;
     category: string;
   }[];
-  image: string;
+  image: string | StaticImageData;
   url: string;
 }
 
@@ -22,7 +22,7 @@ export interface New {
   id: number | string;
   title: string;
   text: string;
-  image: string;
+  image: string | StaticImageData;
   button: {
     variant: ButtonVariant;
     text: string;

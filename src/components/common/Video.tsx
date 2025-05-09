@@ -1,7 +1,7 @@
 "use client";
 import { useRef, useState, useEffect } from "react";
 import Image from "next/image";
-import { play, mute, sound, pause } from "@/data/commonData";
+import { play, mute, unmute, pause } from "@/data/commonData";
 import clsx from "clsx";
 
 type Props = {
@@ -78,22 +78,21 @@ export const Video = ({
             src={playbackState ? play : pause}
             alt="playback"
             className={clsx(
-              "absolute top-1/2 left-1/2 cursor-pointer",
-              playbackState ? "w-16 h-16" : "w-24 h-24 left-[42%] top-[48%]"
+              "absolute top-1/2 left-1/2 cursor-pointer w-[28px] lg:w-[36px]",
             )}
             onClick={tooglePlayback}
-            width={64}
-            height={64}
+            width={24}
+            height={24}
           />
         )}
         {controls && (
           <Image
-            src={soundState ? sound : mute}
+            src={soundState ? unmute : mute}
             alt="sound"
-            className="absolute bottom-1 right-2 cursor-pointer w-auto"
+            className="absolute bottom-1 right-2 cursor-pointer w-[28px] lg:w-[36px]"
             onClick={toogleSound}
-            width={30}
-            height={30}
+            width={24}
+            height={24}
           />
         )}
       </div>

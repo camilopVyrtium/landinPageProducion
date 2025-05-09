@@ -4,6 +4,7 @@ import { OurTeam } from "@/components/about/OurTeam";
 import { Banner } from "@/components/about/Banner";
 import { CreativeProcess } from "@/components/about/CreativeProcess";
 import { Metadata } from "next";
+import { locales } from "@/constants/locales";
 
 export const metadata: Metadata = {
   title: "Así Somos | Vyrtium Marketing",
@@ -18,6 +19,11 @@ export const metadata: Metadata = {
     type: 'website',
   },
 };
+export const generateStaticParams = async () => {
+  return locales.map((locale) => ({
+    locale
+  }))
+}
 
 export default function About() {
   return (
@@ -25,12 +31,14 @@ export default function About() {
       <div id="banner" className="mt-4">
         <Banner />
       </div>
-      <div className="w-11/12 mx-auto mt-16">
-        <CreativeProcess/>
+      <div className="w-[85%] md:w-[80%] mx-auto md:mt-16 mt-8">
+        <CreativeProcess />
         <DigitalChaosAbout />
       </div>
-      <HowWeConnect />
-      <OurTeam />
+      <div className="w-[85%] md:w-[80%] mx-auto">
+        <HowWeConnect />
+        <OurTeam />
+      </div>
     </>
   );
 }

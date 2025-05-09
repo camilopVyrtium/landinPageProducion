@@ -7,6 +7,7 @@ import { form } from "@/data/commonData";
 import Image from "next/image";
 import Button from "@/components/common/Button";
 import { InputSelect } from "@/components/common/InputSelect";
+import imageForm from '@/assets/images/common/imageForm.png';
 type Props = {
   inModal?: boolean;
 }
@@ -79,7 +80,7 @@ export const Form = ({ inModal = true }: Props) => {
         </h2>
 
         <Image
-          src={"/images/common/imageForm.png"}
+          src={imageForm}
           alt="imageForm"
           width={460}
           height={500}

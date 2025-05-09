@@ -1,6 +1,6 @@
 export function isDesktop(userAgent: string): boolean {
-    const mobileKeywords =
-      /Android(?!.*Mobile)|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i;
-    return !mobileKeywords.test(userAgent);
-  }
-  
+  const mobileKeywords =
+    // /Android(?!.*Mobile)|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i;
+    /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i;
+  return !mobileKeywords.test(userAgent);
+}

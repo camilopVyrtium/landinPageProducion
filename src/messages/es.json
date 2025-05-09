@@ -22,10 +22,10 @@
     "footer": {
       "title": "REVOLUCIONA TU NEGOCIO CON VYRTIUM",
       "description": "¡Destaca tu negocio y cautiva a tu audiencia!",
-      "button": "¡Contáctanos!",
-      "address": "Cra 5a #131-67",
+      "button": "Conversemos",
+      "address": "CLL 99 # 49-38 of. 702",
       "email": "Contact@vyrtium.com",
-      "phone": "+57 317 890 0189"
+      "phone": "+601 9277439"
     }
   },
   "pages": {
@@ -128,30 +128,23 @@
           {
             "title": "CXP: Crypto expert for profits",
             "text": "Hemos rediseñado la página web. Esto ha mejorado su apariencia y también su funcionalidad. Ahora, los usuarios tienen una experiencia más fluida y agradable al visitarla.",
-            "citeTex": "Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum",
+            "citeTex": "Vyrtium Marketing logró algo que nos parecía difícil: unir nuestra identidad, estrategia y presencia digital en una experiencia coherente. Por eso seguimos eligiéndolos",
             "owner": "Fernando Piñango",
-            "job": "CEO CXP Crypto Expert for Profits"
+            "job": "CEO de CXP"
           },
           {
-            "title": "CXP2: Crypto expert for profits",
+            "title": "Adulam",
             "text": "Hemos rediseñado la página web. Esto ha mejorado su apariencia y también su funcionalidad. Ahora, los usuarios tienen una experiencia más fluida y agradable al visitarla.",
-            "citeTex": "Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum",
-            "owner": "Fernando Piñango",
-            "job": "CEO CXP Crypto Expert for Profits"
+            "citeTex": "La evolución estética de nuestra cuenta con Vyrtium Marketing ha sido increíble. Hoy tenemos una imagen más sólida, atractiva y coherente con lo que somos como marca de belleza",
+            "owner": "Adulam Velandia",
+            "job": "Representante de Adulam"
           },
           {
-            "title": "CXP3: Crypto expert for profits",
+            "title": "Massi",
             "text": "Hemos rediseñado la página web. Esto ha mejorado su apariencia y también su funcionalidad. Ahora, los usuarios tienen una experiencia más fluida y agradable al visitarla.",
-            "citeTex": "Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum",
-            "owner": "Fernando Piñango",
-            "job": "CEO CXP Crypto Expert for Profits"
-          },
-          {
-            "title": "CXP4: Crypto expert for profits",
-            "text": "Hemos rediseñado la página web. Esto ha mejorado su apariencia y también su funcionalidad. Ahora, los usuarios tienen una experiencia más fluida y agradable al visitarla.",
-            "citeTex": "Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum",
-            "owner": "Fernando Piñango",
-            "job": "CEO CXP Crypto Expert for Profits"
+            "citeTex": "Queríamos una marca que hablara el lenguaje de las familias y los niños, y Vyrtium Marketing lo hizo realidad. Nos ayudaron a construir una identidad visual cercana y alegre, y a transformar nuestras ideas en contenido que conecta con nuestra audiencia",
+            "owner": "José Andrés Díaz Cañabate",
+            "job": "Coordinador de producción"
           }
         ]
       },
@@ -226,7 +219,7 @@
               {
                 "id": "moreServicesWithIA-automatizacion-empresarial-1",
                 "title": "Garantía de calidad",
-                "description": "Creación de soluciones que ayudan a los equipos a conectarse y colaborar para mejorar la eficiencia operativa y cerrar ciclos de retroalimentación más rápido. Garantizar productos sin errores, predecibles y confiables a través de pruebas de automatización, rendimiento, escalabilidad y seguridad. Mejora de la calidad del trabajo."
+                "description": "Creación de soluciones que ayudan a los equipos a garantizar productos sin errores, predecibles y confiables a través de pruebas de automatización, rendimiento, escalabilidad y seguridad. Mejora de la calidad del trabajo."
               },
               {
                 "id": "moreServicesWithIA-automatizacion-empresarial-2",
@@ -387,8 +380,7 @@
         "texts": [
           {
             "id": "digitalChaosAbout-text-1",
-            "part1": "En Vyrtium, la innovación y la tecnología no son solo herramientas, sino el núcleo de nuestra identidad. Nacimos con una misión clara: ",
-            "strong1": "transformar el marketing digital a través de la ingeniería, combinando datos, creatividad y tecnología avanzada para generar estrategias altamente efectivas."
+            "text": "En Vyrtium, la innovación y la tecnología no son solo herramientas, sino el núcleo de nuestra identidad. Nacimos con una misión clara: <bold>transformar el marketing digital a través de la ingeniería, combinando datos, creatividad y tecnología avanzada para generar estrategias altamente efectivas.</bold>"
           },
           {
             "id": "digitalCaosAsiSomos-text-2",
@@ -425,9 +417,9 @@
       "howWeConnect": {
         "testimonial": {
           "title": "Nuestra historia",
-          "text": "Desde la <bold>ingeniería</bold> aprendí que la <bold>simplicidad, la eficiencia y los resultados son clave</bold>. Hoy aplicamos ese enfoque al marketing digital, combinando estrategia, datos e <bold>IA</bold> para crear soluciones rápidas, precisas y efectivas.",
+          "text": "Desde la <bold>ingeniería</bold> aprendí que la<bold> simplicidad, la eficiencia y los resultados son clave</bold>. Hoy aplicamos ese enfoque al marketing digital, combinando estrategia, datos e <bold>IA</bold> para crear soluciones rápidas, precisas y efectivas.",
           "owner": "Israel Castillo",
-          "profession": "CEO Vyrtium Marketing|"
+          "profession": "CEO Vyrtium Marketing"
         },
         "section": {
           "title": "Nuestro equipo",
@@ -554,7 +546,7 @@
       "ourServices": {
         "title": "Nuestros servicios",
         "text": "En Vyrtium, la innovación y la tecnología no son solo herramientas, sino el núcleo de nuestra identidad. Nacimos con una misión clara: <bold>transformar el marketing digital a través de la ingeniería,</bold> combinando datos creatividad y tecnología avanzada para generar estrategias altamente efectivas.",
-         "services": [
+        "services": [
           {
             "id": "ourServices-marketing_digital",
             "title": "Marketing Digital",
@@ -573,13 +565,13 @@
               },
               {
                 "id": "ourServices-marketing_digital-2",
-                "title": "Gestión de social media",
-                "description": "Analizamos datos, investigamos el mercado y creamos buyer personas. Desarollamos estrategias, producimos y post producimos contenido, administramos redes sociales y campañas publicitarias, optimizando resultados y generando reportes efectivos."
+                "title": "Software de gestión empresarial",
+                "description": "Ofrecemos soluciones para controlar tareas, reportes, certificados, asistencia y beneficios corporativos, optimizando la productividad de tu negocio."
               },
               {
                 "id": "ourServices-marketing_digital-3",
-                "title": "Software de gestión empresarial",
-                "description": "Ofrecemos soluciones para controlar tareas, reportes, certificados, asistencia y beneficios corporativos, optimizando la productividad de tu negocio."
+                "title": "Gestión de social media",
+                "description": "Analizamos datos, investigamos el mercado y creamos buyer personas. Desarrollamos estrategias, producimos y postproducimos contenidos, administramos redes sociales y campañas publicitarias, optimizando resultados y generando reportes efectivos."
               },
               {
                 "id": "ourServices-marketing_digital-4",
@@ -594,22 +586,22 @@
               {
                 "id": "ourServices-marketing_digital-6",
                 "title": "Google Ads",
-                "description": "Gestionamos campañas efectivas en Google Ads, optimizando el ROI para tu inversión genere los mejores resultados con la máxima eficiencia."
+                "description": "Gestionamos campañas efectivas en Google Ads, optimizando el ROI para que tu inversión genere los mejores resultados con la máxima eficiencia."
               },
               {
                 "id": "ourServices-marketing_digital-7",
                 "title": "Creación de canales",
-                "description": "Monetizamos tu conocimiento con estrategias multicanal. Construimos marcas que conectan con la audiencia, generan ingresos aseguran estabilidad a largo plazo."
+                "description": "Monetizamos tu conocimiento con estrategias multicanal. Construimos marcas que conectan con la audiencia, generan ingresos y aseguran estabilidad a largo plazo."
               },
               {
                 "id": "ourServices-marketing_digital-8",
                 "title": "Desarrollo de avatar con IA",
-                "description": "Creación de personajes con inteligencia artificial, con la capacidad de expresar cualquier contenido de texto, logrando optimización de tiempos en la producción y Posproducción del contenido."
+                "description": "Creación de personajes con inteligencia artificial, con la capacidad de expresar cualquier contenido de texto, logrando optimización de tiempos en la producción y postproducción del contenido."
               },
               {
                 "id": "ourServices-marketing_digital-9",
                 "title": "Posicionamiento SEO",
-                "description": "Optimizamos la programacion de tu sitio web para que aparezca en los primeros resultados de Google, aumentando su alcance y tráfico orgánico."
+                "description": "Optimizamos la programación de tu sitio web para que aparezca en los primeros resultados de Google, aumentando su alcance y tráfico orgánico."
               }
             ]
           },
@@ -626,58 +618,43 @@
             "bullets": [
               {
                 "id": "ourServices-proyectos-de-creacion-1",
-                "title": "Diseño 3D Profesional",
-                "description": "Creamos modelos tridimensionales personalizados para publicidad, arquitectura, e-commerce, videojuegos y realidad virtual. Ofrecemos modelado, renders, animaciones y experiencias en realidad aumentada y virtual, especializaods en diseño industriales, productos y espacios comerciales."
+                "title": "Diseño / Animación 3D Profesional",
+                "description": "Creamos modelos 3D que potencian marcas, venden productos y dan vida a espacios en publicidad, arquitectura y entornos virtuales."
               },
               {
                 "id": "ourServices-proyectos-de-creacion-2",
                 "title": "Hub de Diseñadores",
-                "description": "Servicio integral en diseño, animación, postproducción y desarrollo web. Creamos contenido visual de alto impacto, perfectamente alineado con tus objetivos, para que tu marca destaque en redes sociales, publicidad y branding."
+                "description": "Servicio integral en diseño, animación, postproducción y desarrollo web."
               },
               {
                 "id": "ourServices-proyectos-de-creacion-3",
                 "title": "Servicio de Storyboard, Guiones Técnicos y Literarios",
-                "description": "Optimiza la narrativa, encuadres y composición para que cada comercial, animación, videoclip o producción cinematográfica se ejecute con precisión y creatividad."
+                "description": "Perfeccionamos narrativa, encuadres y composición para que cada comercial, animación o producción cobre vida con precisión técnica y fuerza creativa."
               },
               {
                 "id": "ourServices-proyectos-de-creacion-4",
                 "title": "Edición de videos corporativos",
-                "description": "Nuestro servicio integral de posproducción, con corrección y colorización de imagen, aplicación de LUTs y codigicación para redes (internas y externas) y TV, garantiza un resultado impecable y coherente con la identidad de tu marca."
+                "description": "Postproducción de alto nivel que respeta tu esencia. Piezas con calidad técnica y coherencia visual con tu marca."
               },
               {
                 "id": "ourServices-proyectos-de-creacion-5",
                 "title": "Ilustración digital",
-                "description": "Creamos personajes y diseños conceptuales personalizados, listos para impresión o medios digitales, alineados con tus objetivos y estrategias de marketing."
+                "description": "Diseñamos personajes y conceptos visuales únicos, listos para impresión o medios digitales, con enfoque estratégico y coherencia con tus objetivos de marca."
               },
               {
                 "id": "ourServices-proyectos-de-creacion-6",
                 "title": "Moldes de inyección",
-                "description": "Diseñamos piezas, personajes y elementos tridimensionales para producción física e inyección de silicona, adaptados a las necesidades de tu proyecto."
+                "description": "Modelamos piezas, personajes y elementos 3D adaptados a producción física e inyección en silicona, con precisión técnica y diseño a medida."
               },
               {
                 "id": "ourServices-proyectos-de-creacion-7",
-                "title": "Servicio de Animatic",
-                "description": "Versión preliminar de animaciones o videos con bocetos animados y audio sincronizado. Ayudamos a productoras, agencias y creadores a visualizar y optimizar productos, ahorrando tiempo y costos, y logrando resultados fluidos y efectivos."
+                "title": "VFX para producciones",
+                "description": "Desarrollamos efectos especiales de alto impacto para: \n · Redes \n · Publicidad \n · Series"
               },
               {
                 "id": "ourServices-proyectos-de-creacion-8",
-                "title": "Animación 3D",
-                "description": "Generamos imágenes en movimiento a partir de modelos digitales para crear secuencias visuales realistas y atractivas. Usamos Blender, Maya, 3DMax y Rhino para transformar conceptos en experiencias visuales impactantes para diversas aplicaciones."
-              },
-              {
-                "id": "ourServices-proyectos-de-creacion-9",
-                "title": "VFX para producciones",
-                "description": "Creamos efectos especiales de alta calidad para redes sociales, series, cortometrajes y largometrajes, elevando la experiencia visual y fortaleciendo estrategias de contenido digital."
-              },
-              {
-                "id": "ourServices-proyectos-de-creacion-10",
-                "title": "Videojuegos corporativos",
-                "description": "Desarrollamos y programamos videojuegos en Unity y Unreal, en formatos 2D y 3D, totalmente responsive, para impulsar la experiencia de marca y fortalecer estrategias digitales."
-              },
-              {
-                "id": "ourServices-proyectos-de-creacion-11",
                 "title": "Videos CGI",
-                "description": "Creamos anmaciones 3D, efectos visuales y mundos virtuales realistas o fantástivos, adaptadaos a cada proyecto."
+                "description": "Creamos animaciones 3D, efectos visuales y mundos virtuales realistas o fantásticos, adaptados a cada proyecto"
               }
             ]
           },
@@ -698,42 +675,37 @@
               {
                 "id": "ourServices-gestion-de-redes-sociales-1",
                 "title": "Administración de Redes Sociales",
-                "description": "Gestionamos tus redes para aumentar visibilidad, fortalecer la audiencia y mejorar conversiones, con planificación, publicación, optimización y publicidad digital."
+                "description": "Impulsamos tus redes sociales con análisis, estrategia, y creatividad:\n· Gestión estratégica de redes sociales.\n· Enfoque en visibilidad, engagement y conversión.\n· Planificación, publicación, optimización y pauta"
               },
               {
                 "id": "ourServices-gestion-de-redes-sociales-2",
                 "title": "Administración de Pautas Publicitarias",
-                "description": "Equipo interdisciplinario con experiencia en marketing digita, creación audiovisual y programación."
+                "description": "Planificamos, ejecutamos y optimizamos:\n· Gestión integral de campañas pagadas.\n· Enfoque técnico-creativo (marketing, audiovisual, programación)."
               },
               {
                 "id": "ourServices-gestion-de-redes-sociales-3",
                 "title": "Servicio de Community Manager",
-                "description": "Gestionamos e impulsamos comunidades digitales, fortaleciendo la relación entre tu marca y su audiencia. Aumentamos el engagement y optimizamos tu presencia online con interacción en tiempo real, monitoreo de tendencias y análisis de comportamiento."
+                "description": "Impulsamos comunidades digitales para conectar tu marca con su audiencia:\n· Incremento del engagement.\n· Optimización de la presencia online.\n· Análisis de comportamiento del usuario."
               },
               {
                 "id": "ourServices-gestion-de-redes-sociales-4",
-                "title": "Posicionamiento SEO",
-                "description": "Optimizamos la programacion de tu sitio web para que aparezca en los primeros resultados de Google, aumentando su alcance y tráfico orgánico."
+                "title": "Investigación de mercados",
+                "description": "Convertimos datos en decisiones:\n\n· Análisis de mercado y sector.\n· Informes detallados para la toma de decisiones.\n· Enfoque estratégico para negocios."
               },
               {
                 "id": "ourServices-gestion-de-redes-sociales-5",
-                "title": "Investigación de mercados",
-                "description": "Analizamos el sector o categoría de tu marca para crear estrategias de negocio efectivas, mediante informes detallados que impulsan decisiones clave."
-              },
-              {
-                "id": "ourServices-gestion-de-redes-sociales-6",
                 "title": "Buyer persona",
                 "description": "Creamos perfiles de audiencia y consumidores para que desarrolles estrategias precisas y efectivas en cada punto de contacto."
               },
               {
-                "id": "ourServices-gestion-de-redes-sociales-7",
+                "id": "ourServices-gestion-de-redes-sociales-6",
                 "title": "Estrategias de contenido",
-                "description": "Hacemos planes integrales de cómo crear, gestionar, distribuir y medir contenido relevante y valioso para alcanzar objetivos especificos de negocio."
+                "description": "Diseñamos planes de contenido que conectan, educan y convierten:\n· Planes integrales de contenido.\n· Distribución y medición estratégica.\n· Contenido relevante alineado con el negocio."
               },
               {
-                "id": "ourServices-gestion-de-redes-sociales-8",
+                "id": "ourServices-gestion-de-redes-sociales-7",
                 "title": "Protocolo de respuestas de crisis/manejo de comentarios",
-                "description": "Desarrollamos manuales para gestionar comentarios y enfrentar escenarios criticos en redes sociales, garantizando una comunicación efectiva y oportuna con tu audiencia."
+                "description": "Anticipamos lo inesperado:\n· Manuales de acción ante crisis digitales.\n· Gestión profesional de comentarios.\n· Comunicación efectiva y en tiempo real."
               }
             ]
           },
@@ -750,42 +722,27 @@
               {
                 "id": "ourServices-produccion-audiovisual-1",
                 "title": "Estudio de Fotografía y Video",
-                "description": "Creamos contenido visual de alta calidad para redes sociales, sitios web, y campañas publicitarias. Capturamos la esencia de tu marca con sesiones fotográficas, books profesionales y videos promocionales que comunican tu mensaje de forma efectiva."
+                "description": "Capturamos la esencia de tu marca con fotografía y video profesional para redes, sitios web y campañas publicitarias."
               },
               {
                 "id": "ourServices-produccion-audiovisual-2",
                 "title": "Dirección de arte, maquillaje e iluminación profesional",
-                "description": "Proyectamos tu marca con contenido de alta calidad, combinando dirección creativa, iluminación y maquillaje profesional. Creamos material impactante para fotografía, video marketing, redes sociales, e-commerce y branding personal, resaltando lo mejor de tu imagen y productos."
+                "description": "Proyectamos tu marca con contenido de alta calidad:\n· Dirección de arte.\n· Enfoque en imagen de marca y producto.\n· Orientación a e-commerce o marca personal."
               },
               {
                 "id": "ourServices-produccion-audiovisual-3",
-                "title": "Producción de Contenidos Digitales: Creación, Rodaje y Distribución",
-                "description": "Creamos, grabamos y editamos contenido audiovisual para redes sociales, streaming, sitios web y campañas publicitarias. Ofrecemos producción integral, desde guiones hasta postproducción, asegurando material optimizado para cada plataforma y público."
+                "title": "Producción / distribución de Contenidos",
+                "description": "Desarrollamos contenido audiovisual de principio a fin: Preproducción, producción, post y distribución."
               },
               {
                 "id": "ourServices-produccion-audiovisual-4",
-                "title": "Estudio de grabación de audio",
-                "description": "Espacios diseñados para capturar tus ideas con la mejor calidad y fidelidad sonora, llevando tu voz al siguiente nivel."
+                "title": "Asesoría y acompañamiento legal en producción de videos",
+                "description": "Garantizamos cada etapa de tu producción legalmente:\n· Revisión de propiedad intelectual y permisos.\n· Contratos/derechos de manejo y uso de la imagen."
               },
               {
                 "id": "ourServices-produccion-audiovisual-5",
-                "title": "Pre producción de proyectos",
-                "description": "Ofrecemos acompañamiento, asesoría, planificación y logística para asegurar producciones exitosas, evitando errores y optimizando recursos para un ahorro efectivo de presupuesto."
-              },
-              {
-                "id": "ourServices-produccion-audiovisual-6",
-                "title": "Gestión de locaciones",
-                "description": "Encontramos el espacio ideal para la producción de tus contenidos, desde casas y bodegas hasta estudios y automóviles, adaptados a las necesidades de tu proyecto."
-              },
-              {
-                "id": "ourServices-produccion-audiovisual-7",
-                "title": "Asesoría y acompañamienot legal en producción de videos",
-                "description": "Garantizamos el cumplimiento legal en todas las etapas del proyecto, desde la planificación hasta la distribución. Revisamos contratos, permisos y derechos de propiedad intelectual, asegurando un proceso transparente y sin riesgos."
-              },
-              {
-                "id": "ourServices-produccion-audiovisual-8",
                 "title": "Servicios de Streaming",
-                "description": "Producimos transmisiones en tiempo real con edición en vivo, equipo en sitio, garantizando calidad profesional y maximizando el alcance de tu marca. Incluye planificación, producción técnica y soporte en tiempo real."
+                "description": "Transmitimos en vivo con calidad profesional.\n· Streaming con equipo en sitio.\n· Edición y soporte técnico en tiempo real.\n· Alcance y visibilidad para eventos o lanzamientos."
               }
             ]
           },
@@ -802,23 +759,28 @@
             "bullets": [
               {
                 "id": "ourServices-tecnologia-1",
-                "title": "Desarrollo y Administración de Plataformas E-learning.",
-                "description": "Desarrollamos entornos digitales para enseñanza y capacitación a distancia, adaptados a necesidades corporativas, académicas y cursos online. Integramos tecnología. diseño UX/UI y estrategias de aprendizaje para una experiencia educativa atractiva y efectiva."
+                "title": "Automatización Empresarial",
+                "description": "Optimizamos procesos potenciados por inteligencia artificial para reducir tus costos y mejorar tu eficiencia."
               },
               {
                 "id": "ourServices-tecnologia-2",
-                "title": "Software de gestión empresarial",
-                "description": "Diseñamos y desarrollamos herramientas para gestión de proyectos, recursos humanos, portales de clientes, automatixaciones, intranet, control de activos y monitoreo, optimizando la eficiencia de tu negocio."
+                "title": "Conexión Interna",
+                "description": "Conectamos tu empresa con inteligencia artificial para mejorar la colaboración y la toma de decisiones."
               },
               {
                 "id": "ourServices-tecnologia-3",
-                "title": "Chat box y asistentes virtuales",
-                "description": "Automatizamos la comunicación con soluciones de inteligencia artificial que interactúan con usuarios, responden preguntas y mejoran la atención al cliente y aficiencia operativa."
+                "title": "Customer Experience",
+                "description": "Mejoramos la interacción y personalización basándonos en inteligencia artificial para que tengas el mejor servicio."
               },
               {
                 "id": "ourServices-tecnologia-4",
-                "title": "Ciberseguridad",
-                "description": "Protegemos sistemas y datos contra amenazas digitales con soluciones personalizadas, monitoreo y protocolos de seguridad para funcionamiento seguro y sin interrupciones."
+                "title": "Producción y Contenido",
+                "description": "Generamos contenido de alta calidad impulsados por inteligencia artificial para entregarte resultados."
+              },
+              {
+                "id": "ourServices-tecnologia-5",
+                "title": "Desarrollo de negocios",
+                "description": "Impulsamos el crecimiento con estrategias en inteligencia artificial para nuevos mercados y oportunidades de negocio."
               }
             ]
           },
@@ -837,42 +799,32 @@
               {
                 "id": "ourServices-relaciones-publicas-1",
                 "title": "Marketing experiencial",
-                "description": "Creamos experiencias inmersivas que conectan marcas con consumidores, diseñando estrategias personalizadas que generan interaccion única y fortalecen la fidelidad del cliente."
+                "description": "Creamos experiencias inmersivas que conectan emocionalmente a marcas y consumidores.                                    "
               },
               {
                 "id": "ourServices-relaciones-publicas-2",
-                "title": "Impresión a gran formato",
-                "description": "Producción de materiales de alta calidad y personalización, ideales para campañas de marketing, comunicación corporativa o necesidades comerciales. Este producto combina tecnología avanzada con rapidez y flexibilidad, permitiendo la creación de piezas gráficas adaptadas a las necesidades especificas de cada cliente."
+                "title": "Planificación de eventos presenciales",
+                "description": "Organizamos eventos presenciales e híbridos con producción, logística y cobertura mediática.\nMedimos resultados para optimizar tus futuras acciones."
               },
               {
                 "id": "ourServices-relaciones-publicas-3",
-                "title": "Planificación de eventos presenciales",
-                "description": "Planificar y ejecutar eventos en formatos presenciales e híbridos. Gestionar la logística, producción y cobertura mediática de los eventos. Medir el impacto de cada evento y optimizar estrategias futuras."
-              },
-              {
-                "id": "ourServices-relaciones-publicas-4",
                 "title": "Activaciones de marca",
-                "description": "Planificamos y ejecutamos eventos, lanzamientos de productos y campañas de marketing, con cobertura mediática, difusión estratégica y contenido visual promocional."
-              },
-              {
-                "id": "ourServices-relaciones-publicas-5",
-                "title": "Webinar",
-                "description": "Un webinar es una conferencia en línea que permite a las empresas conectar y compartir información con su audiencia en tiempo real. Ofrecemos apoyo completo en su organización, desde la planificación y promoción hasta la transmisión y soporte técnico, garantizando un evento profesional y efectivo."
+                "description": "Diseñamos y ejecutamos activaciones que generan impacto:\n· Lanzamientos, eventos y campañas.\n· Cobertura mediática.\n· Promoción con enfoque estratégico."
               },
               {
                 "id": "ourServices-relaciones-publicas-6",
                 "title": "Manejo de crisis y Reputación corporativa",
-                "description": "Diseño de protocolos de respuesta a crisis de reputación. Creación de estrategias de comunicación de emergencia, Gestión de crisis en redes sociales y medios de comunicación, Entrenamiento en comunicación de crisis para portavoces de la empresa."
+                "description": "Protegemos la reputación de tu marca:\n· Protocolos de respuesta ante crisis.\n· Gestión en redes y medios. \n· Gestión comunicacional con visión, técnica y tacto."
               },
               {
                 "id": "ourServices-relaciones-publicas-7",
                 "title": "Freepress",
-                "description": "Redactamos y distribuimos comunicados de prensa gestionamos relaciones con medios, entrevistas, cobertura mediática y analizamos el impacto en prensa."
+                "description": "Redactamos y distribuimos comunicados de prensa, también gestionamos relaciones con medios:\n· Entrevistas\n· Cobertura mediática.\n· Análisis del impacto en prensa."
               },
               {
                 "id": "ourServices-relaciones-publicas-8",
                 "title": "Gestión de Influencers y Embajadores de Marca",
-                "description": "Seleccionamos influencers, diseñamos estrategias de colaboración, gestionamos contratos y creamos programas de embajadores para impulsar tu marca."
+                "description": "Creamos alianzas auténticas para potenciar tu marca:\n· Selección estratégica de influencers.\n· Programas  de embajadores.\n· Contratación, colaboración y gestión."
               }
             ]
           }

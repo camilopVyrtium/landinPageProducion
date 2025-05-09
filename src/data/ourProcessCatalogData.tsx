@@ -1,7 +1,46 @@
 import { Bullet } from "@/interfaces/common/Bullet";
 import { ButtonVariant } from "@/interfaces/common/Button";
-import { RichTranslateFunction } from "@/interfaces/common/TranslateFunction";
-
+import { TranslateFunction } from "@/interfaces/common/TranslateFunction";
+import setUp from '@/assets/icons/set-up-branding.svg'
+import socialMedia from '@/assets/icons/social-media.svg'
+import softwareEmpresarial from '@/assets/icons/software-de-gestion-empresarial.svg'
+import landingPage from '@/assets/icons/landing-page.svg'
+import ecommerce from '@/assets/icons/ecommerce.svg'
+import googleAds from '@/assets/icons/google-ads.svg'
+import administracionPutas from '@/assets/icons/administracion-pautas.svg'
+import administracionRRSS from '@/assets/icons/administracion-rrss.svg'
+import buyerPerson from '@/assets/icons/buyer-person.svg'
+// import chatbot from '@/assets/icons/chatbot.svg'
+import communityManager from '@/assets/icons/community-manager.svg'
+// import cyberseguridad from '@/assets/icons/cyberseguridad.svg'
+import artDirection from '@/assets/icons/direccion-de-arte.svg'
+import corporateVideoEdition from '@/assets/icons/ediccion-de-video-corporativo.svg'
+import professional3DDesign from '@/assets/icons/diseño-3d-profesional.svg'
+import multimediaStudio from '@/assets/icons/estudio-foto-y-video.svg'
+import designersHub from '@/assets/icons/hub-de-diseñadores.svg'
+import vfx from '@/assets/icons/vfx.svg'
+import cgi from '@/assets/icons/cgi.svg'
+import digitalIllustration from '@/assets/icons/ilustracion-digital.svg'
+import crisisManagement from '@/assets/icons/manejo-de-crisis.svg'
+import marketingExperiential from '@/assets/icons/marketing-experiencial.svg'
+import avatarsIa from '@/assets/icons/avatars-ia.svg'
+import injectionMolds from '@/assets/icons/moldes-de-inyeccion.svg'
+import eventPlanning from '@/assets/icons/planeacion-de-eventos.svg'
+import positioningSeo from '@/assets/icons/posicionamiento-seo.svg'
+import creationChannels from '@/assets/icons/creation-channels.svg';
+import digitalContentProduction from '@/assets/icons/produccion-de-contenidos-digitales.svg'
+import contentStrategy from '@/assets/icons/content-strategy.svg'
+import marketResearch from '@/assets/icons/investigacion-de-mercados.svg';
+import storyboard from '@/assets/icons/story-board.svg';
+import audioRecordingStudio from '@/assets/icons/estudio-de-grabacion-de-audio.svg';
+import streamming from '@/assets/icons/streamming.svg';
+import empresarialAutomatization from '@/assets/icons/empresarial-automatization.svg';
+import internalNetwork from '@/assets/icons/internal-network.svg';
+import customerExperience from '@/assets/icons/custommer-experience.svg';
+import contentAndProduct from '@/assets/icons/content-and-product.svg';
+import developmentBussiness from '@/assets/icons/development-bussiness.svg';
+import brandActivation from '@/assets/icons/brand-activation.svg';
+import managmentInfluencers from '@/assets/icons/management-influencers.svg';
 export type Service = {
     id: string;
     title: string;
@@ -19,83 +58,40 @@ type NuestrosServicios = {
     text: React.ReactNode;
     services: Service[];
 }
-const bullets = [9, 11, 8, 8, 4, 8];
-const bulletsImages = [
+const bullets = [9, 8, 7, 5, 5, 6];
+const bulletIcons = [
     [
-        "/images/our-process-catalog/marketing-digital/set-up_+_branding.png",
-        "/images/our-process-catalog/marketing-digital/business-management-software.png",
-        "/images/our-process-catalog/marketing-digital/social-media-management.png",
-        "/images/our-process-catalog/marketing-digital/landing-page.png",
-        "/images/our-process-catalog/marketing-digital/ecommerce.png",
-        "/images/our-process-catalog/marketing-digital/google-ads.png",
-        "/images/our-process-catalog/marketing-digital/channel-creation.png",
-        "/images/our-process-catalog/marketing-digital/avatar-development-with-ai.png",
-        "/images/our-process-catalog/marketing-digital/seo.png"
+        setUp, softwareEmpresarial, socialMedia, landingPage, ecommerce, googleAds, creationChannels, avatarsIa, positioningSeo
     ],
     [
-        "/images/our-process-catalog/creative-projects/professional-3d-animation_design.png",
-        "/images/our-process-catalog/creative-projects/designer-hub.png",
-        "/images/our-process-catalog/creative-projects/storyboard.png",
-        "/images/our-process-catalog/creative-projects/corporate-video_edition.png",
-        "/images/our-process-catalog/creative-projects/digital-illustration.png",
-        "/images/our-process-catalog/creative-projects/injection-molds.png",
-        "/images/our-process-catalog/creative-projects/vfx-productions.png",
-        "/images/our-process-catalog/creative-projects/videos-cgi.png",
-        // Data
-        "/images/our-process-catalog/marketing-digital/set-up_+_branding.png",
-        "/images/our-process-catalog/marketing-digital/set-up_+_branding.png",
-        "/images/our-process-catalog/marketing-digital/set-up_+_branding.png",
+        professional3DDesign, designersHub, storyboard, corporateVideoEdition, digitalIllustration, injectionMolds, vfx, cgi,
     ],
     [
-        "/images/our-process-catalog/social-media-managment/social-network-administration.png",
-        "/images/our-process-catalog/social-media-managment/administration-advertising-guidelines.png",
-        "/images/our-process-catalog/social-media-managment/service_community-manager.png",
-        "/images/our-process-catalog/social-media-managment/market-research.png",
-        "/images/our-process-catalog/social-media-managment/buyer-person.png",
-        "/images/our-process-catalog/social-media-managment/content-strategies.png",
-        "/images/our-process-catalog/social-media-managment/response-protocols.png",
-    ],
-    
-    [
-        "/images/our-process-catalog/audiovisual-productions/photographic-studio.png",
-        "/images/our-process-catalog/audiovisual-productions/art-direction.png",
-        "/images/our-process-catalog/audiovisual-productions/content-production.png",
-        "/images/our-process-catalog/audiovisual-productions/consultancy_accompaniment-legal-production_videos.png",
-        "/images/our-process-catalog/audiovisual-productions/services-streaming.png",
-        // Data
-        "/images/our-process-catalog/marketing-digital/set-up_+_branding.png",
-        "/images/our-process-catalog/marketing-digital/set-up_+_branding.png",
-        "/images/our-process-catalog/marketing-digital/set-up_+_branding.png",
+        administracionRRSS, administracionPutas, communityManager, marketResearch, buyerPerson, contentStrategy, crisisManagement
     ],
     [
-        "/images/our-process-catalog/applied-ai/business-automation.png",
-        "/images/our-process-catalog/applied-ai/internal-connection.png",
-        "/images/our-process-catalog/applied-ai/customer-experience.png",
-        "/images/our-process-catalog/applied-ai/content-production.png",
-        "/images/our-process-catalog/applied-ai/business-development.png",
+        multimediaStudio, artDirection, digitalContentProduction, audioRecordingStudio, streamming
     ],
     [
-        "/images/our-process-catalog/public-relations/marketing-experiencial.png",
-        "/images/our-process-catalog/public-relations/in-person-event-planning.png",
-        "/images/our-process-catalog/public-relations/brand-activation.png",
-        "/images/our-process-catalog/social-media-managment/response-protocols.png",
-        "/images/our-process-catalog/public-relations/freepress.png",
-        "/images/our-process-catalog/applied-ai/customer-experience.png",
+        empresarialAutomatization, internalNetwork, customerExperience, contentAndProduct, developmentBussiness,
+    ],
+    [
+        marketingExperiential, eventPlanning, brandActivation, crisisManagement, setUp, managmentInfluencers
     ],
 ]
-export const getOurServices = (t: RichTranslateFunction): NuestrosServicios => {
+export const getOurServices = (t: TranslateFunction): NuestrosServicios => {
     return {
         title: t('title'),
         text: <>
             {t.rich('text', {
-                bold: (text: string) => <strong className="font-bold">{text}</strong>,
+                bold: (text) => <strong className="font-bold">{text}</strong>,
             })}
         </>,
         services: [
             {
                 id: t('services.0.id'),
                 title: t('services.0.title'),
-                color: '#D7E2E1',
+                color: '#90D6D6',
                 button: {
                     text: t('services.0.button.text'),
                     variant: 'secondary',
@@ -110,7 +106,8 @@ export const getOurServices = (t: RichTranslateFunction): NuestrosServicios => {
                 bullets: new Array(bullets[0]).fill(0).map((value, i) => ({
                     id: t(`services.${value}.bullets.${i}.id`),
                     title: t(`services.${value}.bullets.${i}.title`),
-                    backgroundImage: bulletsImages[0][i],
+                    // backgroundImage: bulletsImages[0][i],
+                    icon: bulletIcons[0][i],
                     description: t(`services.${value}.bullets.${i}.description`),
                 }))
             },
@@ -118,7 +115,7 @@ export const getOurServices = (t: RichTranslateFunction): NuestrosServicios => {
                 id: t('services.1.id'),
                 title: t('services.1.title'),
                 color: '#64D2D9',
-                
+
                 button: {
                     text: t('services.1.button.text'),
                     variant: 'secondary',
@@ -133,7 +130,8 @@ export const getOurServices = (t: RichTranslateFunction): NuestrosServicios => {
                 bullets: new Array(bullets[1]).fill(1).map((value, i) => ({
                     id: t(`services.${value}.bullets.${i}.id`),
                     title: t(`services.${value}.bullets.${i}.title`),
-                    backgroundImage: bulletsImages[1][i],
+                    icon: bulletIcons[1][i],
+                    // backgroundImage: bulletsImages[1][i],
                     description: t(`services.${value}.bullets.${i}.description`),
                 }))
             },
@@ -158,7 +156,8 @@ export const getOurServices = (t: RichTranslateFunction): NuestrosServicios => {
                 bullets: new Array(bullets[2]).fill(2).map((value, i) => ({
                     id: t(`services.${value}.bullets.${i}.id`),
                     title: t(`services.${value}.bullets.${i}.title`),
-                    backgroundImage: bulletsImages[2][i],
+                    icon: bulletIcons[2][i],
+                    // backgroundImage: bulletsImages[2][i],
                     description: t(`services.${value}.bullets.${i}.description`),
                 }))
             },
@@ -179,8 +178,9 @@ export const getOurServices = (t: RichTranslateFunction): NuestrosServicios => {
                 bullets: new Array(bullets[3]).fill(3).map((value, i) => ({
                     id: t(`services.${value}.bullets.${i}.id`),
                     title: t(`services.${value}.bullets.${i}.title`),
+                    icon: bulletIcons[3][i],
                     description: t(`services.${value}.bullets.${i}.description`),
-                    backgroundImage: bulletsImages[3][i],
+                    // backgroundImage: bulletsImages[3][i],
                 }))
             },
             {
@@ -202,7 +202,8 @@ export const getOurServices = (t: RichTranslateFunction): NuestrosServicios => {
                     id: t(`services.${value}.bullets.${i}.id`),
                     title: t(`services.${value}.bullets.${i}.title`),
                     description: t(`services.${value}.bullets.${i}.description`),
-                    backgroundImage: bulletsImages[4][i],
+                    icon: bulletIcons[4][i],
+                    // backgroundImage: bulletsImages[4][i],
                 }))
             },
             {
@@ -225,7 +226,8 @@ export const getOurServices = (t: RichTranslateFunction): NuestrosServicios => {
                     id: t(`services.${value}.bullets.${i}.id`),
                     title: t(`services.${value}.bullets.${i}.title`),
                     description: t(`services.${value}.bullets.${i}.description`),
-                    backgroundImage: bulletsImages[5][i],
+                    icon: bulletIcons[5][i],
+                    // backgroundImage: bulletsImages[5][i],
                 }))
             }
         ]

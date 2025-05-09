@@ -3,6 +3,7 @@ import { News } from "@/components/blog/News";
 import { useTranslations } from "next-intl";
 import { Topics } from "@/components/blog/Topics";
 import { Metadata } from "next";
+import { Contact } from "@/components/our-process-catalog/Contact";
 
 export const metadata: Metadata = {
   title: "Blog | Vyrtium Marketing",
@@ -19,12 +20,15 @@ export const metadata: Metadata = {
 };
 
 export default function Blog() {
-    const t = useTranslations('pages.blog');
-    const { news, topics } = getBlog(t);
-    return (
-        <div className="w-11/12 mx-auto mt-32">
-            <News news={news} />
-            <Topics topics={topics} />
-        </div>
-    )
+  const t = useTranslations('pages.blog');
+  const { news, topics } = getBlog(t);
+  return (
+    <div className="w-[85%] md:w-[80%] mx-auto mt-32">
+      <News news={news} />
+      <Topics topics={topics} />
+      <div className="mt-10">
+        <Contact />
+      </div>
+    </div>
+  )
 }

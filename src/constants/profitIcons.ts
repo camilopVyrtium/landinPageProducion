@@ -1,0 +1,7 @@
+export enum ProfitIcons {
+    CINEMA = "CINEMA",
+    DESIGN = "DESIGN",
+    RRS = "RRS",
+    WEB_DEVELOPMENT = "WEB_DEVELOPMENT",
+    MEDIA_STRATEGY = "MEDIA_STRATEGY",
+}

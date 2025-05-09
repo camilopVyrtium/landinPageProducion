@@ -1,5 +1,10 @@
 import { New, Topic } from "@/interfaces/common/Blog";
 import { TranslateFunction } from "@/interfaces/common/TranslateFunction";
+import imageBlog from '@/assets/images/common/blog/imageBlog.jpeg';
+import card1Blog from '@/assets/images/blog/cards/card1-blog.png';
+import card2Blog from '@/assets/images/blog/cards/card2-blog.png';
+import card3Blog from '@/assets/images/blog/cards/card3-blog.png';
+import test1 from '@/assets/images/blogs/test1.png'
 export const getBlog = (t: TranslateFunction) => {
     return {
         news: [
@@ -7,7 +12,7 @@ export const getBlog = (t: TranslateFunction) => {
                 id: t('news.0.id'),
                 title: t('news.0.title'),
                 text: t('news.0.text'),
-                image: '/images/common/blog/imageBlog.jpeg',
+                image: imageBlog,
                 button: {
                     variant: 'white',
                     text: t('news.0.button.text'),
@@ -32,7 +37,7 @@ export const getBlog = (t: TranslateFunction) => {
                                 category: t('topics.0.cards.0.categories.1.category')
                             }
                         ],
-                        image: '/images/blog/cards/card1-blog.png',
+                        image: card1Blog,
                         url: '/',
                     },
                     {
@@ -49,7 +54,7 @@ export const getBlog = (t: TranslateFunction) => {
                                 category: t('topics.0.cards.1.categories.1.category')
                             }
                         ],
-                        image: '/images/blog/cards/card2-blog.png',
+                        image: card2Blog,
                         url: '/',
                     },
                     {
@@ -66,7 +71,7 @@ export const getBlog = (t: TranslateFunction) => {
                                 category: t('topics.0.cards.2.categories.1.category')
                             }
                         ],
-                        image: '/images/blog/cards/card3-blog.png',
+                        image: card3Blog,
                         url: '/',
                     },
                 ]
@@ -89,7 +94,7 @@ export const getBlog = (t: TranslateFunction) => {
                                 category: t('topics.1.cards.0.categories.1.category')
                             }
                         ],
-                        image: '/images/blog/cards/card1-blog.png',
+                        image: card1Blog,
                         url: '/',
                     },
                     {
@@ -106,7 +111,7 @@ export const getBlog = (t: TranslateFunction) => {
                                 category: t('topics.1.cards.1.categories.1.category')
                             }
                         ],
-                        image: '/images/blog/cards/card2-blog.png',
+                        image: card2Blog,
                         url: '/',
                     },
                     {
@@ -123,7 +128,7 @@ export const getBlog = (t: TranslateFunction) => {
                                 category: t('topics.1.cards.2.categories.1.category')
                             }
                         ],
-                        image: '/images/blog/cards/card3-blog.png',
+                        image: card3Blog,
                         url: '/',
                     },
                 ]
@@ -146,7 +151,7 @@ export const getBlog = (t: TranslateFunction) => {
                                 category: t('topics.2.cards.0.categories.1.category')
                             }
                         ],
-                        image: '/images/blog/cards/card1-blog.png',
+                        image: card1Blog,
                         url: '/',
                     },
                     {
@@ -163,7 +168,7 @@ export const getBlog = (t: TranslateFunction) => {
                                 category: t('topics.2.cards.1.categories.1.category')
                             }
                         ],
-                        image: '/images/blog/cards/card2-blog.png',
+                        image: card2Blog,
                         url: '/',
                     },
                     {
@@ -180,7 +185,7 @@ export const getBlog = (t: TranslateFunction) => {
                                 category: t('topics.2.cards.2.categories.1.category')
                             }
                         ],
-                        image: '/images/blog/cards/card3-blog.png',
+                        image: card3Blog,
                         url: '/',
                     },
                 ]
@@ -195,7 +200,7 @@ export const getFullBlog = (t: TranslateFunction, slug: string) => {
         slug,
         title: t(`news.${slug}.title`),
         text: t(`news.${slug}.text`),
-        image: '/images/common/blog/imageBlog.jpeg',
+        image: imageBlog,
         createdAt: '2025-03-25T00:00:00.000Z',
         textOwner: t('textOwner'),
         sections: [
@@ -203,7 +208,7 @@ export const getFullBlog = (t: TranslateFunction, slug: string) => {
                 id: `section-${slug}-1`,
                 title: t(`news.${slug}.sections.0.title`),
                 text: t(`news.${slug}.sections.0.text`),
-                image: '/images/blogs/test1.png'
+                image: test1,
             },
             {
                 id: `section-${slug}-2`,
@@ -233,7 +238,7 @@ export const getFullBlog = (t: TranslateFunction, slug: string) => {
                         category: t(`news.${slug}.similar.0.categories.1.category`)
                     }
                 ],
-                image: '/images/blog/cards/card1-blog.png',
+                image: card1Blog,
                 url: '/',
             },
             {
@@ -248,7 +253,7 @@ export const getFullBlog = (t: TranslateFunction, slug: string) => {
                         category: t(`news.${slug}.similar.1.categories.1.category`)
                     }
                 ],
-                image: '/images/blog/cards/card2-blog.png',
+                image: card2Blog,
                 url: '/',
             },
             {
@@ -263,7 +268,7 @@ export const getFullBlog = (t: TranslateFunction, slug: string) => {
                         category: t(`news.${slug}.similar.2.categories.1.category`)
                     }
                 ],
-                image: '/images/blog/cards/card3-blog.png',
+                image: card3Blog,
                 url: '/',
             },
         ]

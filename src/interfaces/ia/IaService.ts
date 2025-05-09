@@ -1,6 +1,6 @@
 import { ButtonVariant } from "@/interfaces/common/Button";
 
-interface Button {
+export interface ButtonIA {
   text: string;
   variant: ButtonVariant;
   href: string;
@@ -8,6 +8,7 @@ interface Button {
 
 interface Bullet {
   id: string;
+  icon?: string;
   title: string;
   description: string;
 }
@@ -18,7 +19,7 @@ interface Service {
   line: string;
   text: string;
   color: string;
-  button: Button;
+  button: ButtonIA;
   bullets: Bullet[];
 }
 

@@ -4,7 +4,8 @@ import { menuOptions } from "@/data/layoutData";
 import Button from "@/components/common/Button";
 import { Link } from "@/i18n/navigation";
 import { useTranslations } from "next-intl";
-
+import back from "@/assets/icons/arrow-right.svg";
+import vyrtium from "@/assets/icons/vyrtium.svg"
 export default function MobileSidebar({
   isOpen,
   onClose,
@@ -30,15 +31,14 @@ export default function MobileSidebar({
     <>
       {/* Overlay con desenfoque */}
       <div
-        className={`fixed inset-0 z-40 backdrop-blur-sm bg-black/30 transition-opacity duration-300 ${
-          isOpen ? "opacity-100" : "opacity-0 pointer-events-none"
-        }`}
+        className={`fixed inset-0 z-40 backdrop-blur-sm bg-black/30 transition-opacity duration-300 ${isOpen ? "opacity-100" : "opacity-0 pointer-events-none"
+          }`}
         onClick={onClose}
       />
       <div
         className={
           isOpen
-            ? "block fixed right-8 top-14 h-[calc(90vh-3rem)] w-[80%] bg-transparent z-50 backdrop-blur-md bg-white/20 shadow-2xl shadow-black/50"
+            ? "block fixed right-8 top-14 h-[calc(90vh-3rem)] w-[80%] z-50 backdrop-blur-md bg-white/20 shadow-2xl shadow-black/50"
             : "hidden"
         }
         onClick={onClose}
@@ -46,15 +46,15 @@ export default function MobileSidebar({
         <div className="p-8 flex flex-col items-end justify-between h-full">
           <button onClick={onClose}>
             <Image
-              src="/icons/arrow-right.svg"
-              alt="logo"
+              src={back}
+              alt="back"
               width={50}
               height={50}
             />
           </button>
 
           <div className="flex items-end justify-between w-full">
-            <Image src="/icons/vyrtium.svg" alt="logo" width={50} height={50} />
+            <Image src={vyrtium} alt="logo" width={50} height={50} />
 
             <ul className="flex flex-col items-end gap-4">
               {menuOptions.map((option) => (

@@ -1,27 +1,31 @@
 import { Video } from "@/components/common/Video";
 import { Cite as CiteModel } from "@/interfaces/common/Cite";
-import Image from "next/image";
+import { StaticImageData } from "next/image";
 import clsx from "clsx";
 import { useTranslations } from "next-intl";
-import { Profit } from "@/interfaces/home/OurResult";
 import { Cite } from "./Cite";
+import { OurResultLine } from "./OurResultLine";
+import { Profit } from "@/components/icons/Profit";
+import { Profit as ProfitModel } from "@/interfaces/home/OurResult";
 
 type Props = {
   title: string;
   text: string;
   cite: CiteModel;
-  line: string;
+  // line: string;
+  textColor?: string;
+  color?: string;
   video: string;
-  image: string;
-  profits: Profit[];
+  image: string | StaticImageData;
+  profits: ProfitModel[];
 };
 
 export const Result = ({
   title,
   cite,
-  line,
   image,
   video,
+  color = '#FF5143',
   profits = [],
 }: Props) => {
   const t = useTranslations("pages.homePage");
@@ -29,50 +33,40 @@ export const Result = ({
 
   return (
     <div>
-      <div className="flex md:justify-end md:gap-0 flex-col gap-8 md:flex-row-reverse">
-        <div className="relative mb-5 md:mb-0 flex flex-col justify-between">
+      <div className="flex items-center lg:items-stretch lg:justify-end lg:gap-0 flex-col gap-[clamp(0.7rem,4vw,2rem)] lg:flex-row-reverse lg:h-[700px] lg:overflow-hidden">
+        <div className="relative mb-5 md:mb-0 flex flex-col justify-between min-h-[194px]"> {/* min-h-[194px] */}
+
           <div className="flex flex-col relative">
-            <div className="flex flex-col gap-3 self-start ml-[8vw] md:ml-[5vw] lg:ml-[9rem]">
-              <h3 className="text-3xl text-[--red1] font-black block md:text-4xl ml-4 md:ml-0">
+            <div className="flex flex-col gap-2 lg:gap-3 self-start lg:ml-[9rem] bg-white z-20"> {/* min-h-[194px] */}
+              <h3 className={clsx(`text-[clamp(24px,4.5vw,36px)] leading-[clamp(32px,4.5vw+8px,44px)] font-black block`, "lg:text-4xl md:ml-0")} style={{ color }}>
                 {t(title)}
               </h3>
-              <div
-                className={clsx(
-                  "flex-col gap-2 text-gray1",
-                  "lg:flex lg:text-xl"
-                )}
-              >
-                {profits.map(({ id, image, text }) => (
-                  <div key={id} className="flex items-center z-10 gap-4">
-                    <Image
-                      src={image}
-                      alt={`icon-${id}`}
-                      width={40}
-                      height={400}
+              <div className={clsx("flex flex-col  text-gray1", "lg:text-xl lg:gap-2")}>
+                {
+                  profits.map(({ id, icon, text }) => (
+                    <Profit
+                      key={id}
+                      text={text}
+                      icon={icon}
+                      color={color}
+                      classNameIcon="w-[28px] h-[28px] lg:w-[40px] lg:h-[40px]"
                     />
-                    <p className="leading-normal">{text}</p>
-                  </div>
-                ))}
+                  ))
+                }
               </div>
             </div>
-            <Image
-              src={line}
-              alt="line"
-              className="my-4 w-full absolute lg:max-w-none -bottom-8 -left-9"
-              width={100}
-              height={100}
-            />
+            <OurResultLine className="z-10 my-4 w-full -left-[0.9rem] absolute lg:max-w-none bottom-[clamp(-7rem,-13vw,-6rem)] lg:-bottom-12 lg:left-0" color={color} />
           </div>
-          <Cite cite={cite} image={image} t2={t2} className="hidden md:flex" />
+          <Cite cite={cite} image={image} t2={t2} className="hidden lg:flex" color={color} />
         </div>
-        <div className="flex justify-center items-center h-[60rem] md:h-[45rem] w-full md:w-[80vw] md:max-w-[30rem]">
+        <div className="flex justify-center items-center w-11/12 md:w-full md:max-w-[30rem] lg:w-[70rem]">
           <Video
             src={video}
             className="rounded-xl w-full h-full"
-            classNameVideo="h-full object-cover w-full"
+            classNameVideo="h-[clamp(35rem,120vw,50rem)] md:max-h-[44rem] md:h-[92vw] md:mt-10 lg:mt-0 md:w-full lg:h-[700px] lg:w-[70rem] lg:w-full object-cover w-full"
           />
         </div>
-        <Cite cite={cite} image={image} t2={t2} className="md:hidden" />
+        <Cite cite={cite} image={image} t2={t2} className="lg:hidden" />
       </div>
     </div>
   );

@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import clsx from "clsx";
 import { ButtonVariant } from "@/interfaces/common/Button";
 import { SectionNew2 } from "./SectionNew2";
@@ -6,7 +6,7 @@ import { SectionNew2 } from "./SectionNew2";
 type Props = {
     title: string;
     text: string,
-    image: string;
+    image: string | StaticImageData;
     button: {
         variant: ButtonVariant,
         text: string,

@@ -8,29 +8,30 @@ export const IATop = () => {
 
   return (
     <div
-      className="px-4 sm:px-12 md:px-16 lg:px-32 md:pt-2 md:pt-8 overflow-x-hidden mb-8"
+      className="mb-10 w-[85%] md:w-[80%] mx-auto overflow-hidden"
       id="ia"
     >
       <div
         className={clsx(
           "flex flex-col gap-4",
-          "md:flex-row md:justify-between md:items-start"
+          "md:flex-row md:justify-between lg:items-start lg:gap-32 md:gap-0 md:items-center"
         )}
       >
         <h2
           className={clsx(
-            "text-[--gray3] text-2xl font-black",
-            "md:text-[3rem] md:w-1/3"
+            "text-[--gray3] text-[24px] font-extrabold -tracking-[1px]",
+            "md:text-[clamp(20px,3.5vw,3.5rem)] md:w-[70vw] md:!leading-[clamp(28px,3.5vw+8px,52px)]"
           )}
         >
           {t("title")}
         </h2>
-        <div
-          className={clsx("text-2xl mt-2", "md:text-[1.8rem] md:w-2/3 md:mt-0")}
-        >
+        <p className={clsx("text-base", "md:text-[clamp(18px,1.5vw,26px)] md:mt-0 !leading-[22px] md:w-[73%] md:!leading-[clamp(28px,1.5vw+8px,32px)]")}>
           {t("description")}
-        </div>
+        </p>
       </div>
+
+   
+
     </div>
   );
 }; 

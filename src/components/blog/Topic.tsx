@@ -3,7 +3,7 @@ import { TopicCard as CardModel } from "@/interfaces/common/TopicCard";
 import Image from "next/image";
 import { Slider } from "@/components/common/Slider/Slider";
 import { Card } from "@/components/common/Card/Card";
-
+import separatorTopic from '@/assets/images/blog/separatorTopic.svg';
 type Props = {
   title: string;
   filterCard: string;
@@ -17,11 +17,11 @@ export const Topic = ({ title, cards, filterCard }: Props) => {
   return (
     <div>
       <div className="relative my-8">
-        <h3 className="text-4xl text-[--blue1] font-bold absolute bottom-1 left-[17vw] block ">
+        <h3 className="text-xl md:text-3xl md:!leading-[32px] text-[--blue1] font-bold absolute bottom-1 left-[17vw] block ">
           {title}
         </h3>
         <Image
-          src={"/images/blog/separatorTopic.svg"}
+          src={separatorTopic}
           alt="separatorTopic"
           className="my-4 w-full"
           width={1920}

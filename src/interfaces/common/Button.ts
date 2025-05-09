@@ -1,5 +1,5 @@
 export type ButtonVariant = "primary" | "secondary" | "gray" | "white" | "transparent" | "blue3" | "gray4" | "red3" | "transparent-secondary";
-export type ButtonType = "submit" | "reset" | "button" | undefined;
+export type ButtonType = "submit" | "reset" | "button";
 import { Link as NextIntlLink } from '@/i18n/navigation';
 
 export interface Button {

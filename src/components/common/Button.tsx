@@ -38,7 +38,7 @@ export default function Button({
 
   const baseClasses = "min-h-[36px] font-bold py-1 px-4 rounded-tl-lg rounded-tr-lg rounded-br-lg inline-block";
   const hasTextSizeClass = className?.match(/text-(\[.*?\]|xs|sm|base|lg|xl|2xl|3xl|4xl|5xl|6xl|7xl|8xl|9xl)/);
-  const combinedClasses = `${colorClass} ${baseClasses} ${!hasTextSizeClass ? 'text-xl' : ''} ${hoverClass} ${className || ''}`;
+  const combinedClasses = `${className || ''} ${colorClass} ${baseClasses} ${!hasTextSizeClass ? 'text-xl' : ''} ${hoverClass}`;
 
   const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {
     if (showModalContact) {

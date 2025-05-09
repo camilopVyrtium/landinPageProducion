@@ -1,0 +1,176 @@
+# Configuracion de Storybook
+
+En esta documentacion se mostraran los pasos para crear el storybook, teniendo ya previamente creado el proyecto.
+
+
+* ## **Agregar storybook al proyecto**
+
+```bash
+    $ npx storybook@latest init #Por medio de npx usaremos la ultima version, para inicializar el proyecto
+```
+> **_Nota:_** Con este comando **storybook** detectara automaticamente el framework que estamos usando y realizara las descargas que sean necesarias para poder acoplarse a la arquitectura de _WebComponents_
+
+Al terminar la ejecucion, se encargara de crear 2 carpetas:
+  
+    - ## **.storybook/**
+
+En esta carpeta encontraremos 2 archivos:
+
+- main.ts
+
+> En este archivo se tendra toda la configuracion para la creacion de los stories, los tipos de archivos aceptados para la posterior compilacion, donde se encuentran los archivos estaticos de nuestra _app_, que version estamos usando de storybook (segun framework) y otras configuraciones **La configuracion por defecto funciona bien**
+
+- preview.ts
+
+> Archivo de ejemplo de algunos parametros, para configurar _templates_ de diferentes elementos visuales de Storybook, por ejemplo los controles de los parametros, como sera la estructura de los docs **La configuracion por defecto funciona bien**
+
+    - ## **src/stories/**
+En esta carpeta encontraremos la creacion y documentacion de los stories de prueba, los cuales tiene extension **_ComponentName.stories.ts_** importante tener en cuenta _los componentes usan Pascal_ aqui siguen la misma regla.
+
+- assets/
+- button.css,Button.stories.ts,Button.tsx
+- header.css,Header.stories.ts,Header.tsx
+
+* ### **assets/**
+
+En esta carpeta estan creando los archivos multimedia _(De prueba)_ para mostrarnos toda la informacion que esta en la pagina base llamada **Configure Your project** y todos los stories que requieran archivos multimedia.
+
+* #### **button.css, Button.stories.ts, Button.tsx**
+
+    En estos archivos se tiene toda la informacion necesaria para configurar el story del componente Button.tsx de prueba generado por Storybook
+    
+    * **button.css:** Todo el css necesario para la documentacion
+    * **Button.stories.ts:** Es un archivo de configuracion, que usa el componente original para renderizarlo, saber argumentos y alimentar storybook para luego poder usarlo con comodidad en el mismo
+    * **Button.tsx:** El componente original, creado con el codigo natural del Framework
+
+> ## ***Nota Importante***
+> Para usar Tailwind en el proyecto es requerido realizar la importacion del css donde estamos centralizando toda la libreria ***globals.css*** en el archivo ***.storybook/main.ts*** de la siguiente manera:
+```ts
+    import '../src/app/[locale]/globals.css'; //Ruta usada en VyrtiumMarketing
+```
+e instalar:
+
+***yarn***
+```bash
+yarn add @storybook/addon-styling-webpack
+# ó
+npm i @storybook/addon-styling-webpack
+```
+
+* ## **Ejecutar storybook**
+***yarn***
+```bash
+yarn storybook
+# ó
+npm run storybook
+```
+
+Esto montara un servidor el cual es la documentacion de storybook y corre en: 
+```bash
+    http://localhost:6006/
+```
+## **Creacion de un Storie**
+Lo mas importante de la documentacion, es la creacion de un storie, como es la configuracion base y que debemos hacer para crearlo, debemos tener en cuenta varias cosas importantes al momento de la misma
+
+> Los stories, es la seccion donde podemos realizar la documentacion utilizable de un __**Web Component**__
+Para crear un storie necesitamos crear un archivo con la extencion: __**.stories.ts**__, usando Pascal para nombrar el archivo como en el ejemplo:
+>> _Nombre de ejemplo:_ __**Button.stories.ts**__
+
+Este archivo se puede crear de forma automatica, por medio de la UI de Storybook, en la parte superior izquierda en el button de + 
+Buscamos la ruta del Componente al cual le queremos crear un Storie y le damos click y automaticamente en la UI se actualizara y se agregara el Storie, con la variante: __**Default**__
+El generara el archivo "Debajo" del archivo del componente original, con la extension **__.stories.ts__** en la cual encontraremos algo como esto:
+
+```ts
+//En esta seccion se importan los tipos de dato que nos ayudaran a crear metadata y StoryObjects (Variantes)
+import type { Meta, StoryObj } from '@storybook/react'; 
+
+//En esta seccion se realiza la importacion del componente al que se le realizara el Storie
+import Button from './Button';
+
+// Metadata importante para la generacion de la seccion Storie
+//Recomiendo usar Meta<typeof Button> como tipo de dato asi: 
+//const meta:Meta<typeof Button> //Para poder saber mas facil todos los atributos del objeto.
+const meta = {
+  component: Button,
+
+} satisfies Meta<typeof Button>;
+
+//Es necesario exportarlo por defecto
+
+export default meta;
+//Obtenemos el tipo de dato de meta y se lo pasamos al StoryObj para que nos pueda ayudar con las props que se usan 
+//en el componente
+type Story = StoryObj<typeof meta>;
+
+//Creacion de un Story, se puede colocar cualquier nombre usando Pascal preferiblemente y args serian las props del mismo.
+export const Default: Story = {
+  args: {
+    children: "Button",
+    type: "button",
+  }
+};
+```
+
+## **Atributos mas importantes de Meta**
+- #### **title:**
+    Este atributo nos permite agregar un titulo al path de la ruta de documentacion de nuestro storie
+    ```ts
+    {
+        title:"Card"
+    }
+    ```
+- #### **component:**
+    Este atributo nos permite indicarle cual _WebComponent_ debe renderizar storybook y del cual haremos el storie.
+    ```ts
+    {
+        component:Card
+    }
+    ```
+- #### **tags:["autoDocs"]**
+    Al usar tags con la opcion ***"autoDocs"*** permite a storybook crearnos una pagina ***Docs***, donde centralizar toda la informacion de cada uno de los ***atributos y variantes***
+    ```ts
+    {
+        tags:["autoDocs"]
+    }
+    ```
+- #### **args:**
+    El atributo args nos permite agregar informacion por defecto, para todas las variantes del storie, cuando se requiera algo de prueba requerido para todos las variantes
+    ```ts
+    {
+        args:{
+            onClick: ()=>{console.log(`De ejemplo`)},
+        }
+    }
+    ```
+- #### **argTypes:**
+    Este atributo nos permite definir tipo de datos para los args vistos anteriormente, lo mas reelevante podria ser poder definir le los controles de esta manera:
+    ```ts
+    {
+        argTypes: {
+            backgroundColor: { control: 'color' }, 
+            //El atributo backgroundColor usara el control 'color' que seria el input de tipo color de html
+        },
+    }
+    ```
+## **Atributos mas importantes de Story**
+- #### **args:**
+    El atributo args nos permite agregar informacion por defecto para el storie actual.
+    ```ts
+    {
+        args:{
+            image:"/src/assets/card1.png",
+            title:"Card Title",
+            description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard"
+        }
+    }
+    ```
+- #### **storyName:**
+    Este atributo nos permite cambiar el nombre que coloca por defecto el tag: ***"autoDocs"*** en **meta** (Solo reflejado en ***Docs***)
+    ```ts
+    {
+        storyName:"Default Card"
+    }
+    ```
+
+## **Notas Finales**
+Lo ideal segun yo, sera crear todos nuestros Stories en la carpeta ***src/stories/*** y asi tener todos los stories de forma mas centralizada y organizada para cuando sea requerido mirar y quiza agregar algunos elementos adicionales

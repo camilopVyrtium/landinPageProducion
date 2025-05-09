@@ -10,11 +10,11 @@ export const Blog = () => {
   const { separator, cards, news } = blog;
   const t = useTranslations("pages.homePage.blog");
   return (
-    <div id="blog" className="max-w-[1920px] pb-12">
+    <div id="blog" className="max-w-[1920px] mb-12">
       <div className={clsx("flex mt-10 justify-between")}>
         <h3
           className={clsx(
-            "text-[--gray3] text-3xl 2xl:text-5xl font-black max-w-[50%]"
+            "text-[--gray3] text-[24px] md:text-3xl 2xl:text-5xl font-black max-w-[50%]"
           )}
         >
           {t("title")}
@@ -29,7 +29,7 @@ export const Blog = () => {
       </div>
       <p
         className={clsx(
-          "text-[--gray3] text-2xl 2xl:text-3xl font-normal md:py-12 py-6"
+          "text-[--gray3] text-base !leading-[22px] md:!leading-[32px] md:text-2xl 2xl:!leading-[38px] 2xl:text-3xl font-normal md:my-12 my-6"
         )}
       >
         {t("description")}

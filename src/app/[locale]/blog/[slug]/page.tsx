@@ -7,7 +7,7 @@ export default async function BlogDetailPage({ params }: Props) {
     const { slug } = await params;
     return (
         <>
-            <div className="w-11/12 mx-auto mt-32">
+            <div className="w-[85%] md:w-[80%] mx-auto mt-32">
                 <BlogDetail slug={slug} />
             </div>
         </>
